@@ -2,6 +2,8 @@
   "version": 1,
   "name": "OKC ATCT/TRACON",
   "id": "cff5d7e3-f958-4e34-8251-b8a9a2d08a14",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20OKC%20TRACON.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "643dc906-23a7-43ee-95da-1c6874886670",
