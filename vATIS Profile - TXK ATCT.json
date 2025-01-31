@@ -2,6 +2,8 @@
   "version": 1,
   "name": "TXK ATCT",
   "id": "07fbdc83-0631-4c03-ba8b-9555d48b2670",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20TXK%20ATCT.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "e89e2735-039c-4f32-98ca-6b38a5d3f4fd",

@@ -2,6 +2,8 @@
   "version": 1,
   "name": "MAF ATCT/TRACON",
   "id": "81039357-d7d3-4623-9067-6838df962893",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20MAF%20TRACON.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "b8b678be-48bc-43cd-99a8-85468ecef8f1",

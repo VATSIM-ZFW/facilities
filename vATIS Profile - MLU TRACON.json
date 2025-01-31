@@ -2,6 +2,8 @@
   "version": 1,
   "name": "MLU ATCT/TRACON",
   "id": "caf20ee2-19e3-4d6f-a3ea-7e2c790f8c34",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20MLU%20TRACON.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "c4fefb11-fca2-436e-88e5-502f628fc1cb",

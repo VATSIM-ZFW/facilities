@@ -2,6 +2,8 @@
   "version": 1,
   "name": "LAW ATCT",
   "id": "18e7ddd6-0dd6-4e50-b849-9bc7c365bc3d",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20LAW%20ATCT.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "c47ccf76-fb00-496b-820c-f02da31708c7",

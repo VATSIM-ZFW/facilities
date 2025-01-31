@@ -2,6 +2,8 @@
   "version": 1,
   "name": "ABI ATCT",
   "id": "957efcba-5da9-4294-a1e8-ea1db95ec7eb",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20ABI%20ATCT.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "27b36a84-dc25-408f-8895-655b90ebcd19",

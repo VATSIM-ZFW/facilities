@@ -2,6 +2,8 @@
   "version": 1,
   "name": "CSM ATCT",
   "id": "a9cd20b8-4986-4e7a-ae6d-a21d28e74e05",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20CSM%20ATCT.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "28109f1d-8755-498a-9c00-54f94a4b0722",

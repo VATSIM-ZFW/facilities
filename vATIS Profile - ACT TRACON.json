@@ -2,6 +2,8 @@
   "version": 1,
   "name": "ACT ATCT/TRACON",
   "id": "32d1f044-a46c-4300-ab43-916cd48cd340",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20ABI%20ATCT.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "e99fa1e7-8dda-4ed8-a67c-36fb6b37cc81",

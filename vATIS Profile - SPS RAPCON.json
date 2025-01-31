@@ -2,6 +2,8 @@
   "version": 1,
   "name": "SPS ATCT/RAPCON",
   "id": "d5f9b504-72f6-4012-830c-cb31a8618879",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20SPS%20RAPCON.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "1e044b38-ce7a-4009-ab5d-45dd48d66c0b",

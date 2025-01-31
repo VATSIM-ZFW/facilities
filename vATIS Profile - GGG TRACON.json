@@ -2,6 +2,8 @@
   "version": 1,
   "name": "GGG ATCT/TRACON",
   "id": "5cda1a09-cbae-458b-ad41-5f39cc2beae3",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20GGG%20TRACON.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "101403c4-b792-4b1d-b40e-98cfe59ba5cc",

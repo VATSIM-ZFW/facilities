@@ -2,6 +2,8 @@
   "version": 1,
   "name": "GYI ATCT",
   "id": "43f35dad-ebd0-4da7-9cfc-50bb2ae5abea",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20GYI%20ATCT.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "1332c419-19b1-46ca-88ba-4146d8a34028",

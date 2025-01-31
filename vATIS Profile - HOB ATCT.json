@@ -2,6 +2,8 @@
   "version": 1,
   "name": "HOB ATCT",
   "id": "544721c8-5f09-4edb-acea-968ac270299a",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20HOB%20ATCT.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "775dd303-f972-45cd-b526-310988558a29",

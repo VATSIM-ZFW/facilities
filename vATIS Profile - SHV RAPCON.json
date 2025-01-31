@@ -2,6 +2,8 @@
   "version": 1,
   "name": "SHV ATCT/RAPCON",
   "id": "1c363b97-fb26-4d81-b7e0-97a3a0d9165e",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20SHV%20RAPCON.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "349a9cff-8345-4862-8d10-edd06140ae27",

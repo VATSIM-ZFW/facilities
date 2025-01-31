@@ -2,6 +2,8 @@
   "version": 1,
   "name": "ADM ATCT",
   "id": "43fe4b4a-94dc-4ed5-b382-82e8863c5ad4",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20ABI%20ATCT.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "25c75665-f4c6-448a-b93b-a0f86e3b6862",

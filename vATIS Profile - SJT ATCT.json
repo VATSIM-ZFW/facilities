@@ -2,6 +2,8 @@
   "version": 1,
   "name": "SJT ATCT",
   "id": "3e4e10c6-a6ee-4ab6-b852-9e3496feaafe",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20SJT%20ATCT.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "54106058-f4d4-41bc-b55b-a362d95a56d7",

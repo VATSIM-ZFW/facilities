@@ -2,6 +2,8 @@
   "version": 1,
   "name": "LBB TRACON",
   "id": "0c0a668e-d790-49de-bcda-1aa1479fc7d7",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20LBB%20TRACON.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "0e7335ae-210a-4d02-8983-f2f094dc4a32",

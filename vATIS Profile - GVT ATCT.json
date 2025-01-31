@@ -2,6 +2,8 @@
   "version": 1,
   "name": "GVT ATCT",
   "id": "c2d4b6c7-8748-4887-915c-31c7aaa57b3d",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20GVT%20ATCT.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "235b290d-e842-4f0c-96c6-0011ce180a01",
