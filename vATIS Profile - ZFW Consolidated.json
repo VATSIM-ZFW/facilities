@@ -2,7 +2,7 @@
   "version": 2,
   "name": "ZFW Consolidated",
   "id": "7e509c88-5136-4aa1-b140-b5849d61820c",
-  "updateUrl": "https://raw.githubusercontent.com/kzfw/Facilities/refs/heads/main/vATIS%20Profile%20-%20ZFW%20Consolidated.json",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20ZFW%20Consolidated.json",
   "updateSerial": 2025013001,
   "stations": [
     {

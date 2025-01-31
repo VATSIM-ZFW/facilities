@@ -2,6 +2,8 @@
   "version": 2,
   "name": "D10 TRACON",
   "id": "cb67381e-5d13-452d-aea9-e9b74510ab86",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20D10%20TRACON.json",
+  "updateSerial": 2025013001,
   "stations": [
     {
       "id": "e7069f2d-eb68-4a34-9fc9-0577857e2c19",
