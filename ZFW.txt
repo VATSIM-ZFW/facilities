@@ -323,7 +323,7 @@
 .refuel .MSG ZFW_IDS | "Cleared to conduct refueling along [track] maintain block FL XXX through FL YYY" || Provide radar assistance and vertical separation between flights until TANKER declares MARSA with RECEIVER. Ensure RECEIVER squawks standby. RECEIVER should move to lowest altitude in block before requesting to resume their flight. |
 .marsa .MSG ZFW_IDS | Military Assumes Resonsibility for Separation of Aircraft || Ensure IFR separation is provided until MARSA is declared by flight || Continue to separate MARSA flight from non-participating aircraft |
 .overhead .MSG ZFW_IDS | Overhead/Carrier Break | "Report initial" (May specify distance but usually 3-5nm from runway) IFR is automatically cancelled at the initial || "Break at [specified point], report the break" |
-.moa .MSG ZFW_IDS | Example: "Cleared Lancer MOA, maintain 7000 block FL190." || Aircraft should contact prior to airspace exit |
+.moa .MSG ZFW_IDS | Example: "Cleared Lancer MOA, maintain block 7000 through FL190." || Aircraft should contact prior to airspace exit |
 .mtr .MSG ZFW_IDS | Example: "Cleared into IR-117, maintain IR-117 altitudes." || When aircraft is ready to leave IR: "Cleared to LTS from IR-117 via direct. Maintain 9000". |
 
 
