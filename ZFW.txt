@@ -47,8 +47,8 @@
 
 
 --OKC-ZFW LOA--
-.zfwokc .MSG ZFW_IDS | RNAV - DESCENDING VIA RNAV ARRIVAL | CONV - On appropriate IRW radial @ 100 OR 060 if below 090 | 
-.okczfw .MSG ZFW_IDS | RNAV - On RNAV Departure | CONV - Cleared to first valid fix | All aircraft climbing to 150 or req altitude |
+.zfwokc .MSG ZFW_IDS | RNAV - DESCENDING VIA RNAV ARRIVAL | Conv - On appropriate IRW radial @ 100 OR 060 if below 090 | 
+.okczfw .MSG ZFW_IDS | RNAV - On RNAV Departure | Conv - Cleared to first valid fix | All aircraft climbing to 150 or req altitude |
 
 --INTERNAL LOA--
 .zfwabi .MSG ZFW_IDS | Arrivals descending to 130 | Departures climbing to 120 | D10 arrivals on appropriate routes |
@@ -99,7 +99,7 @@
 .zfwatl .MSG ZFW_IDS | to ATL: no futher than ORRKK |
 
 --ZFW-ZAB LOA-- 
-.zfwphx .MSG ZFW_IDS | RNAV via EWM.DRRVR.PINNG STAR or TXO/TCC.ABQ or CNX.ZUN || CONV and turboprop via EWM.J4.SSO or TXO/TCC.ABQ or CNX.ZUN |
+.zfwphx .MSG ZFW_IDS | RNAV via EWM.DRRVR.PINNG STAR or TXO/TCC.ABQ or CNX.ZUN || Conv and turboprop via EWM.J4.SSO or TXO/TCC.ABQ or CNX.ZUN |
 .zfwsdl .MSG ZFW_IDS | via EWM.J4.SSO.SUNSS STAR |
 .zfwdvt .MSG ZFW_IDS | via EWM.J4.SSO.SUNSS STAR |
 .zfwffz .MSG ZFW_IDS | via EWM.J4.SSO.SUNSS STAR |
@@ -136,23 +136,23 @@
 .zfwwdg .zfwend
 
 --ZFW-ZHU LOA--
-.zfwiahjen .MSG ZFW_IDS | RNAV Jet: DIESL.GUSHR(E)/DRLLR(W) STAR (TMU only) | All others: LLO.RIICE STAR |
-.zfwiahdal .MSG ZFW_IDS | RNAV Jet: TORNN.GUSHR(E)/DRLLR(W) STAR || All others: TORNN.RIICE STAR | Landing E: AOB290 :: Landing W: AOB370 :: Props: AOB230 |
+.zfwiahjen .MSG ZFW_IDS | RNAV Jet: DIESL.GUSHR(E)/DRLLR(W) STAR (TMU only) | RNAV Props: BGOHH.BAZBL STAR || All Others: LLO.RIICE STAR |
+.zfwiahdal .MSG ZFW_IDS | RNAV Jet: TORNN.GUSHR(E)/DRLLR(W) STAR | RNAV Props: ELLVR.BAZBL STAR | All Others: TORNN.RIICE STAR | Landing E: AOB290 :: Landing W: AOB370 :: Props: AOB230 |
 .zfwiahcqy .MSG ZFW_IDS | RNAV Jet: SWB.GESNR(E)/ZEEKK(W) STAR (ZHU will issue correct STAR) | All others: SWB..LYMBO.OHIIO STAR || From SHVT/GGGT: AOB230 |
-.zfwhoujen .MSG ZFW_IDS | RNAV Jet: LLO.KIDDZ STAR | Conv jets: LLO.SNIFY STAR ||Props: LLO.BLUBL STAR |
-.zfwhoudal .MSG ZFW_IDS | RNAV Jet: NNEAL.KIDDZ STAR | Conv jets: ELLVR.SNIFY STAR | Props: CLL/ELLVR.BLUBL STAR AOB280 and under IAH/HOU jets |
-.zfwhoucqy .MSG ZFW_IDS | RNAV Jet: SWB.WAPPL STAR | Conv jets: SWB.HUDZY STAR | RNAV Props: SWB..CESAN.CESAN STAR | Conv Props: BPT..KHOU | Use zfwhouggg for GGGT/SHVT departures |
-.zfwhouggg .MSG ZFW_IDS | RNAV Jet: PLANB.WAPPL STAR :: AOB230 | RNAV Prop: PLANB..CESAN.CESAN STAR :: AOB230 | Conv Jet: LOA..CLL.SNIFY STAR :: AOB180 | Conv Prop: LOA.BLUBL STAR :: AOB180 |
-.zfwhoutjen .MSG ZFW_IDS | All: LLO.RIICE STAR |
-.zfwhoutdal .MSG ZFW_IDS | All: TORNN.RIICE STAR :: AOB230 and under IAH arrivals |
+.zfwhoujen .MSG ZFW_IDS | RNAV Jet: LLO.KIDDZ STAR | RNAV Props: BGOHH.SNDAY STAR | All Others: LLO..CLL..DEST |
+.zfwhoudal .MSG ZFW_IDS | RNAV Jet: NNEAL.KIDDZ STAR | RNAV Props: ELLVR.SNDAY STAR | All Others: ..CLL..DEST AOB280 and under IAH/HOU jets |
+.zfwhoucqy .MSG ZFW_IDS | RNAV Jet: SWB.WAPPL STAR | Conv jets: SWB.HUDZY STAR | RNAV Props: SWB..CESAN.CESAN STAR | Conv Props: SBI..KHOU | Use zfwhouggg for GGGT/SHVT departures |
+.zfwhouggg .MSG ZFW_IDS | RNAV Jet: PLANB.WAPPL STAR :: AOB230 | RNAV Prop: PLANB..CESAN.CESAN STAR :: AOB230 | Conv Jet: LOA..CLL..DEST :: AOB180 | Conv Prop: LOA..CLL..DEST :: AOB180 |
+.zfwhoutjen .MSG ZFW_IDS | RNAV: BGOHH.BAZBL STAR | Conv: LLO.RIICE STAR |
+.zfwhoutdal .MSG ZFW_IDS | RNAV: ELLVR.BAZBL STAR | Conv: TORNN.RIICE STAR | AOB230 and under IAH arrivals |
 .zfwhoutcqy .MSG ZFW_IDS | All: LFK/AEX.OHIIO STAR :: LFK TRSN AOB230 |
-.zfwsatjen .MSG ZFW_IDS | W of SJT - RNAV: TRVLL.DNKIN STAR, CONV: JCT.CSI STAR :: AOB310 | E of SJT - RNAV: DILLO/PPNUT/PRTZY.POPPO STAR, CONV: ABI/LLO.STV STAR :: AOB290 |
-.zfwsatdal .MSG ZFW_IDS | RNAV: NILBE/WINDU/BLEWE.QERVO STAR | CONV: ACT/WINDU.MARCS STAR |
-.zfwsatcqy .MSG ZFW_IDS | RNAV: LLEAD.QERVO STAR || CONV: LFK.MARCS STAR or LFK.MARCS..|
-.zfwhsatsjen .MSG ZFW_IDS | Jets landing EFD/GLS/LBX: LLO.SNIFY STAR | All others: LLO.BLUBL STAR |
-.zfwhsatsdal .MSG ZFW_IDS | Jets landing EFD/GLS/LBX: ELLVR/CLL.SNIFY STAR | All others: ELLVR/CLL.BLUBL STAR |
-.zfwhsatscqy .MSG ZFW_IDS | RNAV Jet: SWB.WAPPL STAR | Conv jets: SWB.HUDZY STAR | RNAV Props: SWB..CESAN.CESAN STAR | Conv Props: BPT..DEST | Use zfwhsatsggg for GGGT/SHVT departures |
-.zfwhsatsggg .MSG ZFW_IDS | RNAV Jet: PLANB.WAPPL STAR :: AOB230 | RNAV Prop: PLANB..CESAN.CESAN STAR :: AOB230 | Conv Jet: LOA..CLL.SNIFY STAR :: AOB180 | Conv Prop: LOA.BLUBL STAR :: AOB180 |
+.zfwsatjen .MSG ZFW_IDS | W of SJT - RNAV: TRVLL.DNKIN STAR, Conv: JCT.CSI STAR :: AOB310 | E of SJT - RNAV: DILLO/PPNUT/PRTZY.POPPO STAR, Conv: ABI/LLO.STV STAR :: AOB290 |
+.zfwsatdal .MSG ZFW_IDS | RNAV: NILBE/WINDU/BLEWE.QERVO STAR | Conv: ACT/WINDU.MARCS STAR |
+.zfwsatcqy .MSG ZFW_IDS | RNAV: LLEAD.QERVO STAR || Conv: LFK.MARCS STAR or LFK.MARCS..|
+.zfwhsatsjen .MSG ZFW_IDS | [Landing EFD/GLS/LBX] RNAV Jet: BGOHH.BAZBL STAR : RNAV Prop: BGOHH.SNDAY STAR :: All others: LLO..CLL..DEST || [OTHERS] RNAV: BGOHH.SNDAY STAR :: Conv: LLO..CLL..DEST |
+.zfwhsatsdal .MSG ZFW_IDS | [Landing EFD/GLS/LBX] RNAV Jet: ELLVR/NNEAL.KIDDZ STAR AOB360 :: RNAV Prop: ELLVR/NNEAL.SNDAY STAR AOB280 :: All others: ..CLL..DEST AOB280 || [OTHERS] RNAV: ELLVR/NNEAL.SNDAY STAR AOB280 :: Conv: ..CLL..DEST AOB280 |
+.zfwhsatscqy .MSG ZFW_IDS | [Landing EFD/GLS/LBX] RNAV Jet: SWB.WAPPL STAR | Conv jets: SWB.HUDZY STAR | RNAV Props: SWB..CESAN.CESAN STAR | Conv Props: ..SJI..DEST || [OTHERS] RNAV Jet: SWB.WAPPL STAR :: Conv Jet: SWB.HUDZY STAR :: RNAV Prop: SWB..CESAN.CESAN STAR :: Conv Prop: ..SJI..DEST || Use zfwhsatsggg for GGGT/SHVT departures |
+.zfwhsatsggg .MSG ZFW_IDS | RNAV Jet: PLANB.WAPPL STAR :: AOB230 | RNAV Prop: PLANB..CESAN.CESAN STAR :: AOB230 | Conv: ..LLO..CLL..DEST AOB180 |
 .zfwcll .MSG ZFW_IDS | Between J25 and J33: direct destination AOB230 |
 .zfwausjen .MSG ZFW_IDS | RNAV Jets: UCOKA/DILLO.LAIKS STAR | All others: DILLO.DIRECT | from F65: AOB290 :: from F61: AOB350 | Use zfwaussats for AUST arrivals |
 .zfwausdal .MSG ZFW_IDS | RNAV except piston: WINDU.SEWZY STAR :: SSOLO @ 170B220(N) or SSOLO @ 170B190(S) | Conv and piston: BLEWE.BLEWE STAR :: BLEWE AOB220 | Use zfwaussats for AUST arrivals |
@@ -226,7 +226,7 @@
 .akuna .MSG ZFW_IDS | 17R : EH / RNAV SPERA :: 35L : EQ / RNAV CUZEN |
 .alian .MSG ZFW_IDS | 18L : WG / RNAV LARRN :: 36R : WP / RNAV GVINE |
 .ardia .MSG ZFW_IDS | 17R : EG / RNAV TREXX :: 35L : EP / RNAV MECHL |
-.bleco .MSG ZFW_IDS | 18L : WH / RNAV SPERA :: 36R : WQ / RNAV HAZKL |
+.bleco .MSG ZFW_IDS | 18L : WH / RNAV BPARK :: 36R : WQ / RNAV HAZKL |
 .dartz .MSG ZFW_IDS | 17R : EG / RNAV TREXX :: 35L : EP / RNAV MECHL |
 .forck .MSG ZFW_IDS | 17R : EG / RNAV TREXX :: 35L : EP / RNAV MECHL |
 .grabe .MSG ZFW_IDS | 17R : EH / RNAV SPERA :: 35L : EQ / RNAV HAZKL |
@@ -1927,10 +1927,10 @@
 .idICT .MSG FAA_ISR *** 3LD: ICT ___ TELEPHONY: CONTAVIA
 .idABR .MSG FAA_ISR *** 3LD: ABR ___ TELEPHONY: CONTRACT
 .idZRZ .MSG FAA_ISR *** 3LD: ZRZ ___ TELEPHONY: CONTROLE
-.idLLE .MSG FAA_ISR *** 3LD: LLE ___ TELEPHONY: CONVALLES
-.idCVS .MSG FAA_ISR *** 3LD: CVS ___ TELEPHONY: CONVERS
-.idVCV .MSG FAA_ISR *** 3LD: VCV ___ TELEPHONY: CONVIASA
-.idCNV .MSG FAA_ISR *** 3LD: CNV ___ TELEPHONY: CONVOY
+.idLLE .MSG FAA_ISR *** 3LD: LLE ___ TELEPHONY: ConvALLES
+.idCVS .MSG FAA_ISR *** 3LD: CVS ___ TELEPHONY: ConvERS
+.idVCV .MSG FAA_ISR *** 3LD: VCV ___ TELEPHONY: ConvIASA
+.idCNV .MSG FAA_ISR *** 3LD: CNV ___ TELEPHONY: ConvOY
 .idCKA .MSG FAA_ISR *** 3LD: CKA ___ TELEPHONY: COOK-AIR
 .idEIS .MSG FAA_ISR *** 3LD: EIS ___ TELEPHONY: COOL
 .idCBZ .MSG FAA_ISR *** 3LD: CBZ ___ TELEPHONY: COOL BREEZE
@@ -7370,10 +7370,10 @@
 .idCONTAVIA .MSG FAA_ISR *** 3LD: ICT ___ TELEPHONY: CONTAVIA
 .idCONTRACT .MSG FAA_ISR *** 3LD: ABR ___ TELEPHONY: CONTRACT
 .idCONTROLE .MSG FAA_ISR *** 3LD: ZRZ ___ TELEPHONY: CONTROLE
-.idCONVALLES .MSG FAA_ISR *** 3LD: LLE ___ TELEPHONY: CONVALLES
-.idCONVERS .MSG FAA_ISR *** 3LD: CVS ___ TELEPHONY: CONVERS
-.idCONVIASA .MSG FAA_ISR *** 3LD: VCV ___ TELEPHONY: CONVIASA
-.idCONVOY .MSG FAA_ISR *** 3LD: CNV ___ TELEPHONY: CONVOY
+.idConvALLES .MSG FAA_ISR *** 3LD: LLE ___ TELEPHONY: ConvALLES
+.idConvERS .MSG FAA_ISR *** 3LD: CVS ___ TELEPHONY: ConvERS
+.idConvIASA .MSG FAA_ISR *** 3LD: VCV ___ TELEPHONY: ConvIASA
+.idConvOY .MSG FAA_ISR *** 3LD: CNV ___ TELEPHONY: ConvOY
 .idCOOKAIR .MSG FAA_ISR *** 3LD: CKA ___ TELEPHONY: COOK-AIR
 .idCOOL .MSG FAA_ISR *** 3LD: EIS ___ TELEPHONY: COOL
 .idCOOLBREEZE .MSG FAA_ISR *** 3LD: CBZ ___ TELEPHONY: COOL BREEZE
