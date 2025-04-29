@@ -255,7 +255,7 @@
 .abiifr .MSG ZFW_IDS | South Flow: H120 (E) or H200 (W) / North Flow: H050 (E) or H320 (W) :: Maintain 5000 |
 .actifr .MSG ZFW_IDS | RH, Maintain 3000 |
 .admifr .MSG ZFW_IDS | On course, Maintain 4000 |
-.adsifr .MSG ZFW_IDS | R16: H050 / R34: RH / Props going S/W off 16: RH :: Maintain 3000 |
+.adsifr .MSG ZFW_IDS | R16: H050 / R34: RH / Props going S/W off 16: RH :: Maintain 2000 |
 .afwifr .MSG ZFW_IDS | RH, Maintain 3000 |
 .badifr .MSG ZFW_IDS | RH, Maintain 2000 |
 .cnwifr .MSG ZFW_IDS | RH, Maintain 3000 |
