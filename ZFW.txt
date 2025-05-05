@@ -12,11 +12,10 @@
 --General--
 .loa .MSG ZFW_IDS | D10-ZFW Restrictions: [gate][dfw/dal/esat/wsat] | OKC Restrictions: okczfw or zfwokc or okczkc | All others: zfw[fac] i.e. zfwabi | ZHU LOA: zfwxxxyyy where xxx is the arrival airport/area and yyy is the sending ZFW area
 .loaref .OPENURL https://zfw.nyc3.cdn.digitaloceanspaces.com/uploads/14-loa-reference-table.pdf
-.zfwiah .MSG ZFW_IDS | Must enter sending area [JEN, DAL, CQY] |
-.zfwhou .MSG ZFW_IDS | Must enter sending area [JEN, DAL, CQY, GGG] |
-.zfwsat .MSG ZFW_IDS | Must enter sending area [JEN, DAL, CQY] |
-.zfwiah .MSG ZFW_IDS | Must enter sending area [JEN, DAL, CQY] |
-.zfwaus .MSG ZFW_IDS | Must enter sending area [JEN, DAL, CQY] |
+.zfwiah .MSG ZFW_IDS | Must enter sending area [JEN, DAL, CQY] ex zfwiahdal |
+.zfwhou .MSG ZFW_IDS | Must enter sending area [JEN, DAL, CQY, GGG] ex zfwhoujen |
+.zfwsat .MSG ZFW_IDS | Must enter sending area [JEN, DAL, CQY] ex zfwsatcqy |
+.zfwaus .MSG ZFW_IDS | Must enter sending area [JEN, DAL, CQY] ex zfwausdal |
 .okcscratch .OPENURL https://zfw.nyc3.cdn.digitaloceanspaces.com/uploads/44.pdf
 
 
@@ -183,7 +182,7 @@
 .zfw3r9 .zfwaussats
 .zfwedc .zfwaussats 
 .zfwhyi .MSG ZFW_IDS | From JEN: DILLO..DEST or LLO.KALLA..DEST F65: AOB290, F61: AOB350 || From DAL: GABOO#/BLEWE# or ..CWK.. AOB230 || From CQY: LFK..WEEED.POTRR# or LFK.BITER# |
-.zfwgtu .MSG ZFW_IDS | From DAL: direct destination :: AOB130 HO GRK APP :: GRK HO AUS @ 040 || Other areas use .zfwaussats |
+.zfwgtu .MSG ZFW_IDS | From DAL: direct destination :: AOB130 HO GRK APP :: GRK HO AUS @ 040 || Other areas use zfwaussats |
 .zfwryw .zfwaussats
 .zfwt74 .zfwaussats
 
