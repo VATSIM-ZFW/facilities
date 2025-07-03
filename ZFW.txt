@@ -137,10 +137,10 @@
 --ZFW-ZHU LOA--
 .zfwiahjen .MSG ZFW_IDS | RNAV Jet: DIESL.GUSHR(E)/DRLLR(W) STAR (TMU only) | RNAV Props: BGOHH.BAZBL STAR || All Others: LLO.RIICE STAR |
 .zfwiahdal .MSG ZFW_IDS | RNAV Jet: TORNN.GUSHR(E)/DRLLR(W) STAR | RNAV Props: ELLVR.BAZBL STAR | All Others: TORNN.RIICE STAR | Landing E: AOB290 :: Landing W: AOB370 :: Props: AOB230 |
-.zfwiahcqy .MSG ZFW_IDS | RNAV Jet: SWB.GESNR(E)/ZEEKK(W) STAR (ZHU will issue correct STAR) | All others: SWB..LYMBO.OHIIO STAR || From SHVT/GGGT: AOB230 |
+.zfwiahcqy .MSG ZFW_IDS | RNAV Jet: SWEUP.GESNR(E)/ZEEKK(W) STAR (ZHU will issue correct STAR) | All others: SWEUP..LYMBO.OHIIO STAR || From SHVT/GGGT: AOB230 |
 .zfwhoujen .MSG ZFW_IDS | RNAV Jet: LLO.KIDDZ STAR | RNAV Props: BGOHH.SNDAY STAR | All Others: LLO..CLL..DEST |
 .zfwhoudal .MSG ZFW_IDS | RNAV Jet: NNEAL.KIDDZ STAR | RNAV Props: ELLVR.SNDAY STAR | All Others: ..CLL..DEST AOB280 and under IAH/HOU jets |
-.zfwhoucqy .MSG ZFW_IDS | RNAV Jet: SWB.WAPPL STAR | Conv jets: SWB.HUDZY STAR | RNAV Props: SWB..CESAN.CESAN STAR | Conv Props: SBI..KHOU | Use zfwhouggg for GGGT/SHVT departures |
+.zfwhoucqy .MSG ZFW_IDS | RNAV Jet: SWEUP.WAPPL STAR | Conv jets: SWEUP.HUDZY STAR | RNAV Props: SWEUP..CESAN.CESAN STAR | Conv Props: SBI..KHOU | Use zfwhouggg for GGGT/SHVT departures |
 .zfwhouggg .MSG ZFW_IDS | RNAV Jet: PLANB.WAPPL STAR :: AOB230 | RNAV Prop: PLANB..CESAN.CESAN STAR :: AOB230 | Conv Jet: LOA..CLL..DEST :: AOB180 | Conv Prop: LOA..CLL..DEST :: AOB180 |
 .zfwhoutjen .MSG ZFW_IDS | RNAV: BGOHH.BAZBL STAR | Conv: LLO.RIICE STAR |
 .zfwhoutdal .MSG ZFW_IDS | RNAV: ELLVR.BAZBL STAR | Conv: TORNN.RIICE STAR | AOB230 and under IAH arrivals |
@@ -150,7 +150,7 @@
 .zfwsatcqy .MSG ZFW_IDS | RNAV: LLEAD.QERVO STAR || Conv: LFK.MARCS STAR or LFK.MARCS..|
 .zfwhsatsjen .MSG ZFW_IDS | [Landing EFD/GLS/LBX] RNAV Jet: BGOHH.BAZBL STAR : RNAV Prop: BGOHH.SNDAY STAR :: All others: LLO..CLL..DEST || [OTHERS] RNAV: BGOHH.SNDAY STAR :: Conv: LLO..CLL..DEST |
 .zfwhsatsdal .MSG ZFW_IDS | [Landing EFD/GLS/LBX] RNAV Jet: ELLVR/NNEAL.KIDDZ STAR AOB360 :: RNAV Prop: ELLVR/NNEAL.SNDAY STAR AOB280 :: All others: ..CLL..DEST AOB280 || [OTHERS] RNAV: ELLVR/NNEAL.SNDAY STAR AOB280 :: Conv: ..CLL..DEST AOB280 |
-.zfwhsatscqy .MSG ZFW_IDS | [Landing EFD/GLS/LBX] RNAV Jet: SWB.WAPPL STAR | Conv jets: SWB.HUDZY STAR | RNAV Props: SWB..CESAN.CESAN STAR | Conv Props: ..SJI..DEST || [OTHERS] RNAV Jet: SWB.WAPPL STAR :: Conv Jet: SWB.HUDZY STAR :: RNAV Prop: SWB..CESAN.CESAN STAR :: Conv Prop: ..SJI..DEST || Use zfwhsatsggg for GGGT/SHVT departures |
+.zfwhsatscqy .MSG ZFW_IDS | [Landing EFD/GLS/LBX] RNAV Jet: SWEUP.WAPPL STAR | Conv jets: SWEUP.HUDZY STAR | RNAV Props: SWEUP..CESAN.CESAN STAR | Conv Props: ..SJI..DEST || [OTHERS] RNAV Jet: SWEUP.WAPPL STAR :: Conv Jet: SWEUP.HUDZY STAR :: RNAV Prop: SWEUP..CESAN.CESAN STAR :: Conv Prop: ..SJI..DEST || Use zfwhsatsggg for GGGT/SHVT departures |
 .zfwhsatsggg .MSG ZFW_IDS | RNAV Jet: PLANB.WAPPL STAR :: AOB230 | RNAV Prop: PLANB..CESAN.CESAN STAR :: AOB230 | Conv: ..LLO..CLL..DEST AOB180 |
 .zfwcll .MSG ZFW_IDS | Between J25 and J33: direct destination AOB230 |
 .zfwausjen .MSG ZFW_IDS | RNAV Jets: UCOKA/DILLO.LAIKS STAR | All others: DILLO.DIRECT | from F65: AOB290 :: from F61: AOB350 | Use zfwaussats for AUST arrivals |
@@ -245,7 +245,7 @@
 .kkity .MSG ZFW_IDS | SOUTH FLOW || RNAV DRSET || NORTH FLOW USE SNSET |
 .lndre .MSG ZFW_IDS | SOUTH FLOW || RNAV DRSET || NORTH FLOW USE EMMTT |
 .swtsr .MSG ZFW_IDS | SOUTH FLOW || RNAV DRSET || NORTH FLOW USE ESNYE |
-.emmtt .MSG ZFW_IDS | NORTH FLOW || 31L: FLOWT / 31R: BARYY | SOUTH FLOW USE LDNRE |
+.emmtt .MSG ZFW_IDS | NORTH FLOW || 31L: FLOWT / 31R: BARYY | SOUTH FLOW USE LNDRE |
 .esnye .MSG ZFW_IDS | NORTH FLOW || 31L: FLOWT / 31R: BARYY | SOUTH FLOW USE SWTSR |
 .rambl .MSG ZFW_IDS | NORTH FLOW || 31L: NNOLN / 31R: MEERZ | SOUTH FLOW USE CURLO |
 .snset .MSG ZFW_IDS | NORTH FLOW || 31L: NNOLN / 31R: MEERZ | SOUTH FLOW USE KKITY |
@@ -326,6 +326,98 @@
 .overhead .MSG ZFW_IDS | Overhead/Carrier Break | "Report initial" (May specify distance but usually 3-5nm from runway) IFR is automatically cancelled at the initial || "Break at [specified point], report the break" |
 .moa .MSG ZFW_IDS | Example: "Cleared Lancer MOA, maintain block 7000 through FL190." || Aircraft should contact prior to airspace exit |
 .mtr .MSG ZFW_IDS | Example: "Cleared into IR-117, maintain IR-117 altitudes." || When aircraft is ready to leave IR: "Cleared to LTS from IR-117 via direct. Maintain 9000". |
+
+
+===CWT===
+.CWTAA .MSG ZFW_ISR *** A behind A: 3 NM On Approach | 3 NM Directly Behind
+.CWTBA .MSG ZFW_ISR *** B behind A: 5 NM On Approach | 5 NM Directly Behind
+.CWTCA .MSG ZFW_ISR *** C behind A: 6 NM On Approach | 6 NM Directly Behind
+.CWTDA .MSG ZFW_ISR *** D behind A: 6 NM On Approach | 6 NM Directly Behind
+.CWTEA .MSG ZFW_ISR *** E behind A: 7 NM On Approach | 7 NM Directly Behind
+.CWTFA .MSG ZFW_ISR *** F behind A: 7 NM On Approach | 7 NM Directly Behind
+.CWTGA .MSG ZFW_ISR *** G behind A: 7 NM On Approach | 7 NM Directly Behind
+.CWTHA .MSG ZFW_ISR *** H behind A: 8 NM On Approach | 8 NM Directly Behind
+.CWTIA .MSG ZFW_ISR *** I behind A: 8 NM On Approach | 8 NM Directly Behind
+
+.CWTAB .MSG ZFW_ISR *** A behind B: 3 NM On Approach | 3 NM Directly Behind
+.CWTBB .MSG ZFW_ISR *** B behind B: 3 NM On Approach | 3 NM Directly Behind
+.CWTCB .MSG ZFW_ISR *** C behind B: 4 NM On Approach | 4 NM Directly Behind
+.CWTDB .MSG ZFW_ISR *** D behind B: 4 NM On Approach | 4 NM Directly Behind
+.CWTEB .MSG ZFW_ISR *** E behind B: 5 NM On Approach | 5 NM Directly Behind
+.CWTFB .MSG ZFW_ISR *** F behind B: 5 NM On Approach | 5 NM Directly Behind
+.CWTGB .MSG ZFW_ISR *** G behind B: 5 NM On Approach | 5 NM Directly Behind
+.CWTHB .MSG ZFW_ISR *** H behind B: 5 NM On Approach | 5 NM Directly Behind
+.CWTIB .MSG ZFW_ISR *** I behind B: 6 NM On Approach | 5 NM Directly Behind
+
+.CWTAC .MSG ZFW_ISR *** A behind C: 3 NM On Approach | 3 NM Directly Behind
+.CWTBC .MSG ZFW_ISR *** B behind C: 3 NM On Approach | 3 NM Directly Behind
+.CWTCC .MSG ZFW_ISR *** C behind C: 3 NM On Approach | 3 NM Directly Behind
+.CWTDC .MSG ZFW_ISR *** D behind C: 3 NM On Approach | 3 NM Directly Behind
+.CWTEC .MSG ZFW_ISR *** E behind C: 3.5 NM On Approach | 3.5 NM Directly Behind
+.CWTFC .MSG ZFW_ISR *** F behind C: 3.5 NM On Approach | 3.5 NM Directly Behind
+.CWTGC .MSG ZFW_ISR *** G behind C: 3.5 NM On Approach | 3.5 NM Directly Behind
+.CWTHC .MSG ZFW_ISR *** H behind C: 5 NM On Approach | 5 NM Directly Behind
+.CWTIC .MSG ZFW_ISR *** I behind C: 6 NM On Approach | 5 NM Directly Behind
+
+.CWTAD .MSG ZFW_ISR *** A behind D: 3 NM On Approach | 3 NM Directly Behind
+.CWTBD .MSG ZFW_ISR *** B behind D: 3 NM On Approach | 3 NM Directly Behind
+.CWTCD .MSG ZFW_ISR *** C behind D: 4 NM On Approach | 4 NM Directly Behind
+.CWTDD .MSG ZFW_ISR *** D behind D: 4 NM On Approach | 4 NM Directly Behind
+.CWTED .MSG ZFW_ISR *** E behind D: 5 NM On Approach | 5 NM Directly Behind
+.CWTFD .MSG ZFW_ISR *** F behind D: 5 NM On Approach | 5 NM Directly Behind
+.CWTGD .MSG ZFW_ISR *** G behind D: 5 NM On Approach | 5 NM Directly Behind
+.CWTHD .MSG ZFW_ISR *** H behind D: 6 NM On Approach | 5 NM Directly Behind
+.CWTID .MSG ZFW_ISR *** I behind D: 6 NM On Approach | 5 NM Directly Behind
+
+.CWTAE .MSG ZFW_ISR *** A behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTBE .MSG ZFW_ISR *** B behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTCE .MSG ZFW_ISR *** C behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTDE .MSG ZFW_ISR *** D behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTEE .MSG ZFW_ISR *** E behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTFE .MSG ZFW_ISR *** F behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTGE .MSG ZFW_ISR *** G behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTHE .MSG ZFW_ISR *** H behind E: 3 NM On Approach | 3 NM Directly Behind
+.CWTIE .MSG ZFW_ISR *** I behind E: 4 NM On Approach | 4 NM Directly Behind
+
+.CWTAF .MSG ZFW_ISR *** A behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTBF .MSG ZFW_ISR *** B behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTCF .MSG ZFW_ISR *** C behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTDF .MSG ZFW_ISR *** D behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTEF .MSG ZFW_ISR *** E behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTFF .MSG ZFW_ISR *** F behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTGF .MSG ZFW_ISR *** G behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTHF .MSG ZFW_ISR *** H behind F: 3 NM On Approach | 3 NM Directly Behind
+.CWTHF .MSG ZFW_ISR *** I behind F: 4 NM On Approach | 3 NM Directly Behind
+
+.CWTAG .MSG ZFW_ISR *** A behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTBG .MSG ZFW_ISR *** B behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTCG .MSG ZFW_ISR *** C behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTDG .MSG ZFW_ISR *** D behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTEG .MSG ZFW_ISR *** E behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTFG .MSG ZFW_ISR *** F behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTGG .MSG ZFW_ISR *** G behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTHG .MSG ZFW_ISR *** H behind G: 3 NM On Approach | 3 NM Directly Behind
+.CWTIG .MSG ZFW_ISR *** I behind G: 3 NM On Approach | 3 NM Directly Behind
+
+.CWTAH .MSG ZFW_ISR *** A behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTBH .MSG ZFW_ISR *** B behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTCH .MSG ZFW_ISR *** C behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTDH .MSG ZFW_ISR *** D behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTEH .MSG ZFW_ISR *** E behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTFH .MSG ZFW_ISR *** F behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTHH .MSG ZFW_ISR *** G behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTHH .MSG ZFW_ISR *** H behind H: 3 NM On Approach | 3 NM Directly Behind
+.CWTIH .MSG ZFW_ISR *** I behind H: 3 NM On Approach | 3 NM Directly Behind
+
+.CWTAI .MSG ZFW_ISR *** A behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTBI .MSG ZFW_ISR *** B behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTCI .MSG ZFW_ISR *** C behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTDI .MSG ZFW_ISR *** D behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTEI .MSG ZFW_ISR *** E behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTFI .MSG ZFW_ISR *** F behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTGI .MSG ZFW_ISR *** G behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTHI .MSG ZFW_ISR *** H behind I: 3 NM On Approach | 3 NM Directly Behind
+.CWTII .MSG ZFW_ISR *** I behind I: 3 NM On Approach | 3 NM Directly Behind
 
 
 ---Pre-Clearance---
@@ -697,7 +789,7 @@
 .idCRP .MSG FAA_ISR *** 3LD: CRP ___ TELEPHONY: AEROTRANSCORP
 .idTRN .MSG FAA_ISR *** 3LD: TRN ___ TELEPHONY: AEROTRON
 .idRTU .MSG FAA_ISR *** 3LD: RTU ___ TELEPHONY: AEROTUCAN
-.idRTZ .MSG FAA_ISR *** 3LD: RTZ ___ TELEPHONY: AEROTUZLA
+.idRTZ .MSG FAA_ISR *** 3LD: RTZ ___ TELEPHONY: AEROTUZFW
 .idTNO .MSG FAA_ISR *** 3LD: TNO ___ TELEPHONY: AEROUNION
 .idTLE .MSG FAA_ISR *** 3LD: TLE ___ TELEPHONY: AEROUTIL
 .idAVY .MSG FAA_ISR *** 3LD: AVY ___ TELEPHONY: AEROVARADERO
@@ -11362,74 +11454,3 @@
 
 .d .msg $atccallsign($1) *** $dep $aircraft $2 $3 $4 $5 $6 $7 $8 $9 $route $alt
 
-
-
----D10 Commands---
-
-.arn .fd AR North
-.ars .fd AR South
-.drn .fd DR North
-.drs .fd DR South
-.satn .fd SAT North
-.sats .fd SAT South
-.fedn .fd FED North
-.feds .fd FED South
-
-.dfwarrs .fd BEREE1|BOOVE4|VKTRY2|SEEVR4
-.dfwarrn .fd SOCKK3|JOVEM4|WHINY4|BRDJE3
-.dalarrs .fd JFRYE3|REDDN4|HIBIL3|BACHR4
-.dalarrn .fd NANDR3|MNNDO4|CRIKT1|DRYYE1
-.dfwarrcon .fd CQY8|JEN1|UKW4|WILBR4
-.dalarrcon .fd FINGR5|GREGS8|KNEAD7|YEAGR3
-.okcarr .fd CAMET3|GHOST3|MURAH3|RIFFL3|TSDEL3|YUCKS3
-
-.BEREE1 .fd BEREE1
-.BOOVE4 .fd BOOVE4
-.VKTRY2 .fd VKTRY2
-.SEEVR4 .fd SEEVR4
-.SOCKK3 .fd SOCKK3
-.JOVEM4 .fd JOVEM4
-.WHINY4 .fd WHINY4
-.BRDJE3 .fd BRDJE3
-.JFRYE3 .fd JFRYE3
-.REDDN4 .fd REDDN4
-.HIBIL3 .fd HIBIL3
-.BACHR4 .fd BACHR4
-.NANDR3 .fd NANDR3
-.MNNDO4 .fd MNNDO4
-.CRIKT1 .fd CRIKT1
-.DRYYE1 .fd DRYYE1
-.WILBR4 .fd WILBR4
-.FINGR5 .fd FINGR5
-.GREGS8 .fd GREGS8
-.KNEAD7 .fd KNEAD7
-.YEAGR3 .fd YEAGR3
-.CAMET3 .fd CAMET3
-.GHOST3 .fd GHOST3
-.MURAH3 .fd MURAH3
-.RIFFL3 .fd RIFFL3
-.TSDEL3 .fd TSDEL3
-.YUCKS3 .fd YUCKS3
-.CQY8 .fd CQY8
-.JEN1 .fd JEN1
-.UKW4 .fd UKW4
-
----Other maps---
-
-.zfwhi .fd High Splits
-.zfwlo .fd Low Splits
-.mia .fd MIA Map
-.zhusplit .fd E/W High Split
-.zmehi .fd High Split
-.zmelo .fd Low Split
-.zmesplit .fd High Split|Low Split
-.zabsplit .fd Combined Splits
-
-.mva .fd ^ D10 MVA|^ OKC MVA|^ ABI MVA|^ GRK MVA|^ ACT MVA|^ FSI MVA|^ GGG MVA|^ LBB MVA|^ LTS MVA|^ MAF MVA|^ MLU MVA|^ SHV MVA|^ SJT MVA|^ SPS MVA
-.rvm .fd * ABI Main|* ACT Main|* GRK Main|* FSI Main|* GGG Main|* LBB Main|* LTS Main|* MAF Main|* MLU Main|* SHV Main|* SJT Main|* SPS Main
-.okcn .fd * OKC North Flow
-.okcs .fd * OKC South Flow
-.d10n .fd * Arrival North
-.d10s .fd * Arrival South
-.appbound .fd O D10 Boundary|O OKC Boundary|O ABI Boundary|O ACT Boundary|O FSI Boundary|O GGG Boundary|O LBB Boundary|O LTS Boundary|O MAF Boundary|O MLU Boundary|O SHV Boundary|O SJT Boundary|O SPS Boundary|O END Boundary|O TUL Boundary|O RZC Boundary|O POE Boundary|O I90 Boundary|O GRK Boundary|O ROW Boundary|O CVS Boundary|O AMA Boundary
-.airspace .fd @ Class B|@ OKC Class C|@ OKC Class D|@ GRK Class D|@ ABI Class C|@ ACT Class D|@ FSI Class D|@ GGG Class D|@ GGG TRSA|@ LBB Class C|@ LTS Class D|@ LTS TRSA|@ MAF Class C|@ MLU Class D|@ MLU TRSA|@ SHV Class C|@ SHV Class D|@ SJT Class D|@ SPS Class D|@ ADM Class D|@ CSM Class D|@ GVT Class D|@ GYI Class D|@ HOB Class D|@ TXK Class D
