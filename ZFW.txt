@@ -129,7 +129,7 @@
 .zfwojc .zfwmkc
 .zfwstj .zfwmkc
 .zfwict .MSG ZFW_IDS | AOB360 | From D10: via ZEMMA/IRW..HUSKA | Entering TUL HI or EDNA HI via HUSKA | Entering ANY HI via ANY |
-.zfwtul .MSG ZFW_IDS | from MLC-L: x 30S TUL @ 100, D060, or correct for DOF | from OKC-H: via IFI, AOB290 PD240 |
+.zfwtul .MSG ZFW_IDS | from MLC-L AOA 10000: x 30S TUL @ 100 | AOB 9000: D060, or correct for DOF | from OKC-H: via IFI, AOB290 PD240 |
 .zfwswo .MSG ZFW_IDS | from OKC: DCT SWO, D050 |
 .zfwend .MSG ZFW_IDS | A230, A130, A060 |
 .zfwwdg .zfwend
