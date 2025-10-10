@@ -2,7 +2,7 @@
   "name": "okc tracon",
   "id": "6ca87aab-906d-4b1d-a529-07024a58532b",
    "updateUrl": "https/raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20OKC%20TRACON.json",
-     "updateSerial": 2025100901,
+     "updateSerial": 2025100902,
   "stations": [
     {
       "ordinal": 0,
@@ -2791,3 +2791,4 @@
   ],
   "version": 4
 }
+
