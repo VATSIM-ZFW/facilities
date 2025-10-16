@@ -133,7 +133,7 @@
 .zfwswo .MSG ZFW_IDS | from OKC: DCT SWO, D050 |
 .zfwend .MSG ZFW_IDS | A230, A130, A060 |
 .zfwwdg .zfwend
-.zfwswo .okczkc
+.okcswo .okczkc
 
 --ZFW-ZHU LOA--
 .zfwiahjen .MSG ZFW_IDS | RNAV Jet: DIESL.GUSHR(E)/DRLLR(W) STAR (TMU only) | RNAV Props: BGOHH.BAZBL STAR || All Others: LLO.RIICE STAR |
