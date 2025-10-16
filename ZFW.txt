@@ -11,12 +11,12 @@
 === LOA and SOP Quick Reference ===
 --General--
 .loa .MSG ZFW_IDS | D10-ZFW Restrictions: [gate][dfw/dal/esat/wsat] | OKC Restrictions: okczfw or zfwokc or okczkc | All others: zfw[fac] i.e. zfwabi | ZHU LOA: zfwxxxyyy where xxx is the arrival airport/area and yyy is the sending ZFW area
-.loaref .OPENURL https://zfw.nyc3.cdn.digitaloceanspaces.com/uploads/14-loa-reference-table.pdf
+.loaref .OPENURL https://zfwartcc.net/file/14-loa-reference-table.pdf
 .zfwiah .MSG ZFW_IDS | Must enter sending area [JEN, DAL, CQY] ex zfwiahdal |
 .zfwhou .MSG ZFW_IDS | Must enter sending area [JEN, DAL, CQY, GGG] ex zfwhoujen |
 .zfwsat .MSG ZFW_IDS | Must enter sending area [JEN, DAL, CQY] ex zfwsatcqy |
 .zfwaus .MSG ZFW_IDS | Must enter sending area [JEN, DAL, CQY] ex zfwausdal |
-.okcscratch .OPENURL https://zfw.nyc3.cdn.digitaloceanspaces.com/uploads/44.pdf
+.okcscratch .OPENURL https://zfwartcc.net/file/44.pdf
 
 
 
@@ -133,6 +133,7 @@
 .zfwswo .MSG ZFW_IDS | from OKC: DCT SWO, D050 |
 .zfwend .MSG ZFW_IDS | A230, A130, A060 |
 .zfwwdg .zfwend
+.zfwswo .okczkc
 
 --ZFW-ZHU LOA--
 .zfwiahjen .MSG ZFW_IDS | RNAV Jet: DIESL.GUSHR(E)/DRLLR(W) STAR (TMU only) | RNAV Props: BGOHH.BAZBL STAR || All Others: LLO.RIICE STAR |
@@ -11453,4 +11454,12 @@
 .ctrhelp .MSG |==========CTR HELP==========|[ZFW HI SPLITS].zfwhi|[ZFW LO SPLITS].zfwlo| |[ZHU SPLIT].zhusplit|[ZME SPLIT].zmesplit or (HI).zmehi or (LO).zmelo|[ZAB SPLIT].zabsplit| |[MIA MAP].mia|[ALL MVAs].mva|[ALL TRACON BOUNDARIES].appbound|[ALL AIRSPACE].airspace| |[TRACON RVMs].rvm|[D10 RVMs](.d10n) or (.d10s)|[OKC RVMs](.okcn) or (.okcs)| |[VOR NAMES].(VOR ID)n ex. "TTTn" or "IRWn"
 
 .d .msg $atccallsign($1) *** $dep $aircraft $2 $3 $4 $5 $6 $7 $8 $9 $route $alt
-
+------------------------------------- aircraft equipment sufx --------------------------------------------------------------------------------------
+.slanta .msg DME, transponder with mode C, no RVSM
+.slantg .msg GNSS, transponder with mode C, no RVSM
+.slanti .msg RNAV, no GNSS, transponder with mode C, no RVSM
+.slantl .msg GNSS, transponder with mode C, RVSM
+.slantp .msg TACAN, transponder with mode C, no RVSM
+.slantu .msg no DME, transponder with mode C, no RVSM
+.slantw .msg no GNSS or RNAV, transponder with mode C, RVSM
+.slantz .msg RNAV, no GNSS, transponder with mode C, RVSM
