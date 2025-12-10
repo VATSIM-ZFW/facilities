@@ -6438,25 +6438,8 @@
       "type": "Feature",
       "properties": {
         "type": "parking",
-        "name": "D5",
-        "heading": 0,
-        "threshold": null,
-        "turnoff": null
-      },
-      "geometry": {
-        "coordinates": [
-          -97.04186,
-          32.89535
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "parking",
         "name": "D6",
-        "heading": 0,
+        "heading": 30,
         "threshold": null,
         "turnoff": null
       },
@@ -6473,7 +6456,7 @@
       "properties": {
         "type": "parking",
         "name": "D7",
-        "heading": 0,
+        "heading": 20,
         "threshold": null,
         "turnoff": null
       },
@@ -6481,23 +6464,6 @@
         "coordinates": [
           -97.04255,
           32.89536
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "parking",
-        "name": "D8",
-        "heading": 0,
-        "threshold": null,
-        "turnoff": null
-      },
-      "geometry": {
-        "coordinates": [
-          -97.04296,
-          32.89538
         ],
         "type": "Point"
       }
@@ -6524,7 +6490,7 @@
       "properties": {
         "type": "parking",
         "name": "D11",
-        "heading": 0,
+        "heading": 340,
         "threshold": null,
         "turnoff": null
       },
@@ -6541,7 +6507,7 @@
       "properties": {
         "type": "parking",
         "name": "D12",
-        "heading": 0,
+        "heading": 350,
         "threshold": null,
         "turnoff": null
       },
@@ -6575,7 +6541,7 @@
       "properties": {
         "type": "parking",
         "name": "D15",
-        "heading": 0,
+        "heading": 20,
         "threshold": null,
         "turnoff": null
       },
@@ -6592,7 +6558,7 @@
       "properties": {
         "type": "parking",
         "name": "D16",
-        "heading": 0,
+        "heading": 40,
         "threshold": null,
         "turnoff": null
       },
@@ -6609,7 +6575,7 @@
       "properties": {
         "type": "parking",
         "name": "D17",
-        "heading": 0,
+        "heading": 70,
         "threshold": null,
         "turnoff": null
       },
@@ -6626,7 +6592,7 @@
       "properties": {
         "type": "parking",
         "name": "D18",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -6643,7 +6609,7 @@
       "properties": {
         "type": "parking",
         "name": "D20",
-        "heading": 0,
+        "heading": 80,
         "threshold": null,
         "turnoff": null
       },
@@ -6660,7 +6626,7 @@
       "properties": {
         "type": "parking",
         "name": "D21",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -6677,7 +6643,7 @@
       "properties": {
         "type": "parking",
         "name": "D22",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -6694,7 +6660,7 @@
       "properties": {
         "type": "parking",
         "name": "D23",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -6711,7 +6677,7 @@
       "properties": {
         "type": "parking",
         "name": "D24",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -6728,7 +6694,7 @@
       "properties": {
         "type": "parking",
         "name": "D25",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -6745,7 +6711,7 @@
       "properties": {
         "type": "parking",
         "name": "D27",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -6761,25 +6727,8 @@
       "type": "Feature",
       "properties": {
         "type": "parking",
-        "name": "D28",
-        "heading": 0,
-        "threshold": null,
-        "turnoff": null
-      },
-      "geometry": {
-        "coordinates": [
-          -97.04543,
-          32.89904
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "parking",
         "name": "D29",
-        "heading": 0,
+        "heading": 100,
         "threshold": null,
         "turnoff": null
       },
@@ -6796,7 +6745,7 @@
       "properties": {
         "type": "parking",
         "name": "D30",
-        "heading": 0,
+        "heading": 120,
         "threshold": null,
         "turnoff": null
       },
@@ -6813,7 +6762,7 @@
       "properties": {
         "type": "parking",
         "name": "D31",
-        "heading": 0,
+        "heading": 180,
         "threshold": null,
         "turnoff": null
       },
@@ -6830,7 +6779,7 @@
       "properties": {
         "type": "parking",
         "name": "D33",
-        "heading": 0,
+        "heading": 180,
         "threshold": null,
         "turnoff": null
       },
@@ -6847,7 +6796,7 @@
       "properties": {
         "type": "parking",
         "name": "D34",
-        "heading": 0,
+        "heading": 180,
         "threshold": null,
         "turnoff": null
       },
@@ -6864,7 +6813,7 @@
       "properties": {
         "type": "parking",
         "name": "D36",
-        "heading": 0,
+        "heading": 180,
         "threshold": null,
         "turnoff": null
       },
@@ -6881,7 +6830,7 @@
       "properties": {
         "type": "parking",
         "name": "D37",
-        "heading": 0,
+        "heading": 190,
         "threshold": null,
         "turnoff": null
       },
@@ -6898,7 +6847,7 @@
       "properties": {
         "type": "parking",
         "name": "D38",
-        "heading": 0,
+        "heading": 180,
         "threshold": null,
         "turnoff": null
       },
@@ -6914,25 +6863,8 @@
       "type": "Feature",
       "properties": {
         "type": "parking",
-        "name": "D39",
-        "heading": 0,
-        "threshold": null,
-        "turnoff": null
-      },
-      "geometry": {
-        "coordinates": [
-          -97.04261,
-          32.8998
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "parking",
         "name": "D40",
-        "heading": 0,
+        "heading": 180,
         "threshold": null,
         "turnoff": null
       },
@@ -6949,7 +6881,7 @@
       "properties": {
         "type": "parking",
         "name": "E2",
-        "heading": 0,
+        "heading": 200,
         "threshold": null,
         "turnoff": null
       },
@@ -6965,25 +6897,8 @@
       "type": "Feature",
       "properties": {
         "type": "parking",
-        "name": "E3",
-        "heading": 0,
-        "threshold": null,
-        "turnoff": null
-      },
-      "geometry": {
-        "coordinates": [
-          -97.03835,
-          32.89313
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "parking",
         "name": "E4",
-        "heading": 0,
+        "heading": 170,
         "threshold": null,
         "turnoff": null
       },
@@ -7000,7 +6915,7 @@
       "properties": {
         "type": "parking",
         "name": "E5",
-        "heading": 0,
+        "heading": 190,
         "threshold": null,
         "turnoff": null
       },
@@ -7017,7 +6932,7 @@
       "properties": {
         "type": "parking",
         "name": "E6",
-        "heading": 0,
+        "heading": 190,
         "threshold": null,
         "turnoff": null
       },
@@ -7034,7 +6949,7 @@
       "properties": {
         "type": "parking",
         "name": "E7",
-        "heading": 0,
+        "heading": 200,
         "threshold": null,
         "turnoff": null
       },
@@ -7051,7 +6966,7 @@
       "properties": {
         "type": "parking",
         "name": "E8",
-        "heading": 0,
+        "heading": 220,
         "threshold": null,
         "turnoff": null
       },
@@ -7068,7 +6983,7 @@
       "properties": {
         "type": "parking",
         "name": "E9",
-        "heading": 0,
+        "heading": 210,
         "threshold": null,
         "turnoff": null
       },
@@ -7085,7 +7000,7 @@
       "properties": {
         "type": "parking",
         "name": "E10",
-        "heading": 0,
+        "heading": 220,
         "threshold": null,
         "turnoff": null
       },
@@ -7102,7 +7017,7 @@
       "properties": {
         "type": "parking",
         "name": "E11",
-        "heading": 0,
+        "heading": 220,
         "threshold": null,
         "turnoff": null
       },
@@ -7119,7 +7034,7 @@
       "properties": {
         "type": "parking",
         "name": "E12",
-        "heading": 0,
+        "heading": 220,
         "threshold": null,
         "turnoff": null
       },
@@ -7136,7 +7051,7 @@
       "properties": {
         "type": "parking",
         "name": "E13",
-        "heading": 0,
+        "heading": 220,
         "threshold": null,
         "turnoff": null
       },
@@ -7153,7 +7068,7 @@
       "properties": {
         "type": "parking",
         "name": "E14",
-        "heading": 0,
+        "heading": 270,
         "threshold": null,
         "turnoff": null
       },
@@ -7170,7 +7085,7 @@
       "properties": {
         "type": "parking",
         "name": "E15",
-        "heading": 0,
+        "heading": 270,
         "threshold": null,
         "turnoff": null
       },
@@ -7187,7 +7102,7 @@
       "properties": {
         "type": "parking",
         "name": "E16",
-        "heading": 0,
+        "heading": 280,
         "threshold": null,
         "turnoff": null
       },
@@ -7204,7 +7119,7 @@
       "properties": {
         "type": "parking",
         "name": "E17",
-        "heading": 0,
+        "heading": 280,
         "threshold": null,
         "turnoff": null
       },
@@ -7221,7 +7136,7 @@
       "properties": {
         "type": "parking",
         "name": "E18",
-        "heading": 0,
+        "heading": 280,
         "threshold": null,
         "turnoff": null
       },
@@ -7238,7 +7153,7 @@
       "properties": {
         "type": "parking",
         "name": "E19",
-        "heading": 0,
+        "heading": 280,
         "threshold": null,
         "turnoff": null
       },
@@ -7254,25 +7169,8 @@
       "type": "Feature",
       "properties": {
         "type": "parking",
-        "name": "E20",
-        "heading": 0,
-        "threshold": null,
-        "turnoff": null
-      },
-      "geometry": {
-        "coordinates": [
-          -97.03563,
-          32.88919
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "parking",
         "name": "E21",
-        "heading": 0,
+        "heading": 300,
         "threshold": null,
         "turnoff": null
       },
@@ -7289,7 +7187,7 @@
       "properties": {
         "type": "parking",
         "name": "E22",
-        "heading": 0,
+        "heading": 300,
         "threshold": null,
         "turnoff": null
       },
@@ -7306,7 +7204,7 @@
       "properties": {
         "type": "parking",
         "name": "E23",
-        "heading": 0,
+        "heading": 300,
         "threshold": null,
         "turnoff": null
       },
@@ -7323,7 +7221,7 @@
       "properties": {
         "type": "parking",
         "name": "E24",
-        "heading": 0,
+        "heading": 300,
         "threshold": null,
         "turnoff": null
       },
@@ -7340,7 +7238,7 @@
       "properties": {
         "type": "parking",
         "name": "E25",
-        "heading": 0,
+        "heading": 300,
         "threshold": null,
         "turnoff": null
       },
@@ -7357,7 +7255,7 @@
       "properties": {
         "type": "parking",
         "name": "E26",
-        "heading": 0,
+        "heading": 300,
         "threshold": null,
         "turnoff": null
       },
@@ -7374,7 +7272,7 @@
       "properties": {
         "type": "parking",
         "name": "E27",
-        "heading": 0,
+        "heading": 300,
         "threshold": null,
         "turnoff": null
       },
@@ -7391,7 +7289,7 @@
       "properties": {
         "type": "parking",
         "name": "E28",
-        "heading": 0,
+        "heading": 300,
         "threshold": null,
         "turnoff": null
       },
@@ -7408,7 +7306,7 @@
       "properties": {
         "type": "parking",
         "name": "E29",
-        "heading": 0,
+        "heading": 300,
         "threshold": null,
         "turnoff": null
       },
@@ -7425,7 +7323,7 @@
       "properties": {
         "type": "parking",
         "name": "E30",
-        "heading": 0,
+        "heading": 300,
         "threshold": null,
         "turnoff": null
       },
@@ -7441,42 +7339,8 @@
       "type": "Feature",
       "properties": {
         "type": "parking",
-        "name": "E31",
-        "heading": 0,
-        "threshold": null,
-        "turnoff": null
-      },
-      "geometry": {
-        "coordinates": [
-          -97.03593,
-          32.88853
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "parking",
-        "name": "E32",
-        "heading": 0,
-        "threshold": null,
-        "turnoff": null
-      },
-      "geometry": {
-        "coordinates": [
-          -97.03627,
-          32.88824
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "parking",
         "name": "E33",
-        "heading": 0,
+        "heading": 300,
         "threshold": null,
         "turnoff": null
       },
@@ -7493,7 +7357,7 @@
       "properties": {
         "type": "parking",
         "name": "E34",
-        "heading": 0,
+        "heading": 320,
         "threshold": null,
         "turnoff": null
       },
@@ -7510,7 +7374,7 @@
       "properties": {
         "type": "parking",
         "name": "E35",
-        "heading": 0,
+        "heading": 340,
         "threshold": null,
         "turnoff": null
       },
@@ -7527,7 +7391,7 @@
       "properties": {
         "type": "parking",
         "name": "E36",
-        "heading": 0,
+        "heading": 350,
         "threshold": null,
         "turnoff": null
       },
@@ -7578,7 +7442,7 @@
       "properties": {
         "type": "parking",
         "name": "F1",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -7595,7 +7459,7 @@
       "properties": {
         "type": "parking",
         "name": "F2",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
