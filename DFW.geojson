@@ -5181,7 +5181,7 @@
       "properties": {
         "type": "parking",
         "name": "B1",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -5198,7 +5198,7 @@
       "properties": {
         "type": "parking",
         "name": "B2",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -5215,7 +5215,7 @@
       "properties": {
         "type": "parking",
         "name": "B3",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -5232,7 +5232,7 @@
       "properties": {
         "type": "parking",
         "name": "B4",
-        "heading": 0,
+        "heading": 20,
         "threshold": null,
         "turnoff": null
       },
@@ -5249,7 +5249,7 @@
       "properties": {
         "type": "parking",
         "name": "B5",
-        "heading": 0,
+        "heading": 360,
         "threshold": null,
         "turnoff": null
       },
@@ -5266,7 +5266,7 @@
       "properties": {
         "type": "parking",
         "name": "B6",
-        "heading": 0,
+        "heading": 10,
         "threshold": null,
         "turnoff": null
       },
@@ -5283,7 +5283,7 @@
       "properties": {
         "type": "parking",
         "name": "B7",
-        "heading": 0,
+        "heading": 20,
         "threshold": null,
         "turnoff": null
       },
@@ -5300,7 +5300,7 @@
       "properties": {
         "type": "parking",
         "name": "B8",
-        "heading": 0,
+        "heading": 20,
         "threshold": null,
         "turnoff": null
       },
@@ -5317,7 +5317,7 @@
       "properties": {
         "type": "parking",
         "name": "B9",
-        "heading": 0,
+        "heading": 20,
         "threshold": null,
         "turnoff": null
       },
@@ -5334,7 +5334,7 @@
       "properties": {
         "type": "parking",
         "name": "B10",
-        "heading": 0,
+        "heading": 30,
         "threshold": null,
         "turnoff": null
       },
@@ -5351,7 +5351,7 @@
       "properties": {
         "type": "parking",
         "name": "B11",
-        "heading": 0,
+        "heading": 30,
         "threshold": null,
         "turnoff": null
       },
@@ -5368,7 +5368,7 @@
       "properties": {
         "type": "parking",
         "name": "B12",
-        "heading": 0,
+        "heading": 40,
         "threshold": null,
         "turnoff": null
       },
@@ -5385,7 +5385,7 @@
       "properties": {
         "type": "parking",
         "name": "B13",
-        "heading": 0,
+        "heading": 50,
         "threshold": null,
         "turnoff": null
       },
@@ -5402,7 +5402,7 @@
       "properties": {
         "type": "parking",
         "name": "B14",
-        "heading": 0,
+        "heading": 60,
         "threshold": null,
         "turnoff": null
       },
@@ -5419,7 +5419,7 @@
       "properties": {
         "type": "parking",
         "name": "B15",
-        "heading": 0,
+        "heading": 60,
         "threshold": null,
         "turnoff": null
       },
@@ -5436,7 +5436,7 @@
       "properties": {
         "type": "parking",
         "name": "B16",
-        "heading": 0,
+        "heading": 60,
         "threshold": null,
         "turnoff": null
       },
@@ -5453,7 +5453,7 @@
       "properties": {
         "type": "parking",
         "name": "B17",
-        "heading": 0,
+        "heading": 70,
         "threshold": null,
         "turnoff": null
       },
@@ -5470,7 +5470,7 @@
       "properties": {
         "type": "parking",
         "name": "B18",
-        "heading": 0,
+        "heading": 80,
         "threshold": null,
         "turnoff": null
       },
@@ -5487,7 +5487,7 @@
       "properties": {
         "type": "parking",
         "name": "B19",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -5504,7 +5504,7 @@
       "properties": {
         "type": "parking",
         "name": "B20",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -5521,7 +5521,7 @@
       "properties": {
         "type": "parking",
         "name": "B21",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -5538,7 +5538,7 @@
       "properties": {
         "type": "parking",
         "name": "B22",
-        "heading": 0,
+        "heading": 100,
         "threshold": null,
         "turnoff": null
       },
@@ -5555,7 +5555,7 @@
       "properties": {
         "type": "parking",
         "name": "B23",
-        "heading": 0,
+        "heading": 110,
         "threshold": null,
         "turnoff": null
       },
@@ -5572,7 +5572,7 @@
       "properties": {
         "type": "parking",
         "name": "B24",
-        "heading": 0,
+        "heading": 110,
         "threshold": null,
         "turnoff": null
       },
@@ -5589,7 +5589,7 @@
       "properties": {
         "type": "parking",
         "name": "B25",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -5606,7 +5606,7 @@
       "properties": {
         "type": "parking",
         "name": "B26",
-        "heading": 0,
+        "heading": 110,
         "threshold": null,
         "turnoff": null
       },
@@ -5623,7 +5623,7 @@
       "properties": {
         "type": "parking",
         "name": "B27",
-        "heading": 0,
+        "heading": 110,
         "threshold": null,
         "turnoff": null
       },
@@ -5640,7 +5640,7 @@
       "properties": {
         "type": "parking",
         "name": "B28",
-        "heading": 0,
+        "heading": 110,
         "threshold": null,
         "turnoff": null
       },
@@ -5657,7 +5657,7 @@
       "properties": {
         "type": "parking",
         "name": "B29",
-        "heading": 0,
+        "heading": 90,
         "threshold": null,
         "turnoff": null
       },
@@ -5674,7 +5674,7 @@
       "properties": {
         "type": "parking",
         "name": "B30",
-        "heading": 0,
+        "heading": 20,
         "threshold": null,
         "turnoff": null
       },
