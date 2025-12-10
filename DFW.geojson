@@ -5691,7 +5691,7 @@
       "properties": {
         "type": "parking",
         "name": "B31",
-        "heading": 0,
+        "heading": 220,
         "threshold": null,
         "turnoff": null
       },
@@ -5708,7 +5708,7 @@
       "properties": {
         "type": "parking",
         "name": "B32",
-        "heading": 0,
+        "heading": 200,
         "threshold": null,
         "turnoff": null
       },
@@ -5725,7 +5725,7 @@
       "properties": {
         "type": "parking",
         "name": "B33",
-        "heading": 0,
+        "heading": 200,
         "threshold": null,
         "turnoff": null
       },
@@ -5742,7 +5742,7 @@
       "properties": {
         "type": "parking",
         "name": "B34",
-        "heading": 0,
+        "heading": 180,
         "threshold": null,
         "turnoff": null
       },
@@ -5759,7 +5759,7 @@
       "properties": {
         "type": "parking",
         "name": "B35",
-        "heading": 0,
+        "heading": 150,
         "threshold": null,
         "turnoff": null
       },
@@ -5776,7 +5776,7 @@
       "properties": {
         "type": "parking",
         "name": "B36",
-        "heading": 0,
+        "heading": 50,
         "threshold": null,
         "turnoff": null
       },
@@ -5793,7 +5793,7 @@
       "properties": {
         "type": "parking",
         "name": "B37",
-        "heading": 0,
+        "heading": 150,
         "threshold": null,
         "turnoff": null
       },
@@ -5810,7 +5810,7 @@
       "properties": {
         "type": "parking",
         "name": "B38",
-        "heading": 0,
+        "heading": 80,
         "threshold": null,
         "turnoff": null
       },
@@ -5827,7 +5827,7 @@
       "properties": {
         "type": "parking",
         "name": "B39",
-        "heading": 0,
+        "heading": 110,
         "threshold": null,
         "turnoff": null
       },
