@@ -7946,6 +7946,24 @@
         ],
         "type": "Point"
       }
+    },
+   {
+      "type": "Feature",
+      "properties": {
+        "type": "Point",
+        "name": "7",
+        "heading": 200,
+        "threshold": null,
+        "turnoff": null
+      },
+      "geometry": {
+        "coordinates": [
+          -97.0204,
+          32.5430
+        ],
+        "type": "Point"
+      }
     }
+    
   ]
 }
