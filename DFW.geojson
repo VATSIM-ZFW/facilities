@@ -7952,7 +7952,7 @@
       "properties": {
         "type": "Point",
         "name": "7",
-        "heading": 200,
+        "heading": 20,
         "threshold": null,
         "turnoff": null
       },
@@ -7960,6 +7960,125 @@
         "coordinates": [
           -97.0204,
           32.5430
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Point",
+        "name": "9",
+        "heading": 90,
+        "threshold": null,
+        "turnoff": null
+      },
+      "geometry": {
+        "coordinates": [
+          -97.0201,
+          32.5423
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Point",
+        "name": "10",
+        "heading": 90,
+        "threshold": null,
+        "turnoff": null
+      },
+      "geometry": {
+        "coordinates": [
+          -97.0201,
+          32.5421
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Point",
+        "name": "11",
+        "heading": 90,
+        "threshold": null,
+        "turnoff": null
+      },
+      "geometry": {
+        "coordinates": [
+          -97.0201,
+          32.5419
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Point",
+        "name": "13",
+        "heading": 90,
+        "threshold": null,
+        "turnoff": null
+      },
+      "geometry": {
+        "coordinates": [
+          -97.0201,
+          32.5416
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Point",
+        "name": "14",
+        "heading": 90,
+        "threshold": null,
+        "turnoff": null
+      },
+      "geometry": {
+        "coordinates": [
+          -97.0201,
+          32.5414
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Point",
+        "name": "15",
+        "heading": 90,
+        "threshold": null,
+        "turnoff": null
+      },
+      "geometry": {
+        "coordinates": [
+          -97.0201,
+          32.5411
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Point",
+        "name": "22",
+        "heading": 90,
+        "threshold": null,
+        "turnoff": null
+      },
+      "geometry": {
+        "coordinates": [
+          -97.0201,
+          32.5404
         ],
         "type": "Point"
       }
