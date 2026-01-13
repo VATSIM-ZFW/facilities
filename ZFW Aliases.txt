@@ -83,7 +83,7 @@
 .zfwar27 .zfwfyv
 .zfwmo32 .zfwfyv
 .zfw05ar .zfwfyv
-.zfwlit .MSG ZFW_IDS | Between J66 and J29: D190 |
+.zfwlit .MSG ZFW_IDS | Between J66 and J29: D190 (Basically between ELD and FEWWW) |
 .zfwcxw .zfwlit
 .zfwlrf .zfwlit
 .zfwork .zfwlit
@@ -140,7 +140,7 @@
 .zfwiahdal .MSG ZFW_IDS | RNAV Jet: TORNN.GUSHR(E)/DRLLR(W) STAR | RNAV Props: ELLVR.BAZBL STAR | All Others: TORNN.RIICE STAR | Landing E: AOB290 :: Landing W: AOB370 :: Props: AOB230 |
 .zfwiahcqy .MSG ZFW_IDS | RNAV Jet: SWEUP.GESNR(E)/ZEEKK(W) STAR (ZHU will issue correct STAR) | All others: SWEUP..LYMBO.OHIIO STAR || From SHVT/GGGT: AOB230 |
 .zfwhoujen .MSG ZFW_IDS | RNAV Jet: LLO.KIDDZ STAR | RNAV Props: BGOHH.SNDAY STAR | All Others: LLO..CLL..DEST |
-.zfwhoudal .MSG ZFW_IDS | RNAV Jet: NNEAL.KIDDZ STAR | RNAV Props: ELLVR.SNDAY STAR | All Others: ..CLL..DEST AOB280 and under IAH/HOU jets |
+.zfwhoudal .MSG ZFW_IDS | RNAV Jet: NNEAL.KIDDZ STAR :: AOB360 | RNAV Props: ELLVR.SNDAY STAR :: AOB280 & BLO JETS | All Others: ..CLL..DEST :: AOB280 & BLO JETS |
 .zfwhoucqy .MSG ZFW_IDS | RNAV Jet: SWEUP.WAPPL STAR | Conv jets: SWEUP.HUDZY STAR | RNAV Props: SWEUP..CESAN.CESAN STAR | Conv Props: SBI..KHOU | Use zfwhouggg for GGGT/SHVT departures |
 .zfwhouggg .MSG ZFW_IDS | RNAV Jet: PLANB.WAPPL STAR :: AOB230 | RNAV Prop: PLANB..CESAN.CESAN STAR :: AOB230 | Conv Jet: LOA..CLL..DEST :: AOB180 | Conv Prop: LOA..CLL..DEST :: AOB180 |
 .zfwhoutjen .MSG ZFW_IDS | RNAV: BGOHH.BAZBL STAR | Conv: LLO.RIICE STAR |
@@ -153,7 +153,7 @@
 .zfwhsatsdal .MSG ZFW_IDS | [Landing EFD/GLS/LBX] RNAV Jet: ELLVR/NNEAL.KIDDZ STAR AOB360 :: RNAV Prop: ELLVR/NNEAL.SNDAY STAR AOB280 :: All others: ..CLL..DEST AOB280 || [OTHERS] RNAV: ELLVR/NNEAL.SNDAY STAR AOB280 :: Conv: ..CLL..DEST AOB280 |
 .zfwhsatscqy .MSG ZFW_IDS | [Landing EFD/GLS/LBX] RNAV Jet: SWEUP.WAPPL STAR | Conv jets: SWEUP.HUDZY STAR | RNAV Props: SWEUP..CESAN.CESAN STAR | Conv Props: ..SJI..DEST || [OTHERS] RNAV Jet: SWEUP.WAPPL STAR :: Conv Jet: SWEUP.HUDZY STAR :: RNAV Prop: SWEUP..CESAN.CESAN STAR :: Conv Prop: ..SJI..DEST || Use zfwhsatsggg for GGGT/SHVT departures |
 .zfwhsatsggg .MSG ZFW_IDS | RNAV Jet: PLANB.WAPPL STAR :: AOB230 | RNAV Prop: PLANB..CESAN.CESAN STAR :: AOB230 | Conv: ..LLO..CLL..DEST AOB180 |
-.zfwcll .MSG ZFW_IDS | Between J25 and J33: direct destination AOB230 |
+.zfwcll .MSG ZFW_IDS | Between J25 and J33: direct destination AOB230 (Between ACT and DONIE) |
 .zfwausjen .MSG ZFW_IDS | RNAV Jets: UCOKA/DILLO.LAIKS STAR | All others: DILLO.DIRECT | from F65: AOB290 :: from F61: AOB350 | Use zfwaussats for AUST arrivals |
 .zfwausdal .MSG ZFW_IDS | RNAV except piston: WINDU.SEWZY STAR :: SSOLO @ 170B220(N) or SSOLO @ 170B190(S) | Conv and piston: BLEWE.BLEWE STAR :: BLEWE AOB220 | Use zfwaussats for AUST arrivals |
 .zfwauscqy .MSG ZFW_IDS | RNAV except piston: LFK.WEEED.WLEEE STAR | Conv and piston: LFK.BITER STAR | Use zfwaussats for AUST arrivals |
@@ -326,7 +326,7 @@
 .marsa .MSG ZFW_IDS | Military Assumes Resonsibility for Separation of Aircraft || Ensure IFR separation is provided until MARSA is declared by flight || Continue to separate MARSA flight from non-participating aircraft |
 .overhead .MSG ZFW_IDS | Overhead/Carrier Break | "Report initial" (May specify distance but usually 3-5nm from runway) IFR is automatically cancelled at the initial || "Break at [specified point], report the break" |
 .moa .MSG ZFW_IDS | Example: "Cleared Lancer MOA, maintain block 7000 through FL190." || Aircraft should contact prior to airspace exit |
-.mtr .MSG ZFW_IDS | Example: "Cleared into IR-117, maintain IR-117 altitudes." || When aircraft is ready to leave IR: "Cleared to LTS from IR-117 via direct. Maintain 9000". |
+.mtr .MSG ZFW_IDS | Example: "Cleared into IR-117, maintain IR-117 altitudes." || When aircraft is ready to leave IR: Issue IFR clearance to destination. |
 
 
 ===CWT===
