@@ -119,7 +119,7 @@
 .zfwcnm .MSG ZFW_IDS | x bdry AOB270, D100 |
 .zfwsrr .MSG ZFW_IDS | x bdry AOB300, D240, PD ok |
 .zfwama .MSG ZFW_IDS | from UKW: AOB290 || From RDR: Descending to AOB110, PD ok |
-##.zfwrow .MSG ZFW_IDS | D200 |##
+.zfwrow .MSG ZFW_IDS | D200 |
 
 --ZFW-ZKC LOA--
 .zfwstl .MSG ZFW_IDS | RNAV Jet: SGF.KAYLA STAR | All others: SGF.KOOOP STAR |
@@ -207,7 +207,7 @@
 
 
 --DFW RNAV Off the Ground--
-.dfwrotg .MSG ZFW_IDS | dfwxx where xx is the hold pad or name of departure |
+.dfwrotg .MSG ZFW_IDS | dfwxx where xx is the hold pad or name of departure, or name of departure procedure |
 
 .dfwep .MSG ZFW_IDS | :: RNAV MECHL :: ARDIA, DARTZ, FORCK, JASPA, MRSSH, NELYN |
 .dfweq .MSG ZFW_IDS | :: RNAV CUZEN :: AKUNA, BLECO, GRABE, LOWGN, TRYTN, ZACHH |
@@ -320,6 +320,20 @@
 .autotrackDR .autotrack KDFW KDAL
 .autotrackMS .autotrack KDTO KFTW KAFW KNFW KDTO KGKY KGPM
 .autotrackDS .autotrack KADS KTKI KHQZ KRBD
+.autotrackSHV .autotrack KSHV KDTN KBAD
+.autotrackMLU .autotrack KMLU
+.autotrackGGG .autotrack KGGG KTYR
+.autotrackACT .autotrack KACT KCNW
+.autotrackABI .autotrack KABI KDYS
+.autotrackMAF .autotrack KMAF KSJT
+.autotrackLBB .autotrack KLBB
+.autotrackGRK .autotrack KGRK KHLR
+.autotrackLTS .autotrack KLTS
+.autotrackFSI .autotrack KFSI KLAW
+.autotrackSPS .autotrack KSPS
+.autotrackZFW .autotrack KDFW KDAL KADS KFTW KAFW KDTO KTKI KHQZ KRBD KGKY KFWS KNFW KGPM KOKC KPWA KOUN KTIK KSHV KDTN KBAD KMLU KGGG KTYR KACT KCNW KABI KDYS KMAF KSJT KLBB KGRK KHLR KLTS KFSI KLAW KSPS KGVT KHOB KCSM
+.dropD10 .autotrack -KDFW -KDAL -KADS -KFTW -KAFW -KDTO -KTKI -KHQZ -KRBD -KGKY -KFWS -KNFW -KGPM
+.dropOKC .autotrack -KOKC -KPWA -KOUN -KTIK
 
 ===Phraseology Helpers===
 .refuel .MSG ZFW_IDS | "Cleared to conduct refueling along [track] maintain block FL XXX through FL YYY" || Provide radar assistance and vertical separation between flights until TANKER declares MARSA with RECEIVER. Ensure RECEIVER squawks standby. RECEIVER should move to lowest altitude in block before requesting to resume their flight. |
@@ -519,7 +533,6 @@
 .fhl Fly heading $1, intercept Runway $2 localizer
 
 ---Center---
-.autotrackall .autotrack KDFW KDAL KADS KFTW KAFW KDTO KTKI KHQZ KRBD KGKY KFWS KNFW KGPM KJWY KOKC KPWA KTIK KOUN KHSD 
 .x Cross $1 at and maintain $2 $3 $4 $5 $6 $7 $8 $9
 .xaoa Cross $1 at or above $2 $3 $4 $5 $6 $7 $8 $9
 .xspd Cross $1 at and maintain $2 at $3 KTS
