@@ -309,7 +309,7 @@
 .dfwvfrj .MSG ZFW_IDS | AOB100 or AOB040 (low alt) || North flow: H010/H340, South flow: H160/H190 |
 .dfwvfrp .MSG ZFW_IDS | AOB020 || North flow: H030/H270, South flow: H130/H240 |
 .dfwmissed .MSG ZFW_IDS | Jets: H160/H190(S) or H010/H340(N) @ A030 || Props: H130/H240(S) or H030/H270(N) @ A020 |
-.dalskyline .MSG ZFW_IDS | Aircraft will circle around downtown Dallas @ 2000 (with tower) or @ 2500 (with D10). Pilots may be vectored towards downtown or they can be own navigation, use HELI chart for reporting points. Not normally available in north flow, use discretion reference traffic landing 31L/R. |
+.dalskyline .MSG ZFW_IDS | Aircraft will circle around downtown Dallas @ 2000 (with tower) or @ 2500 (with D10). Pilots may be vectored towards downtown or they can be own navigation, use HELI chart for reporting points. Not normally available in north flow, use discretion reference traffic landing 31L/R. (IRL they will only allow a flyby of downtown, no orbiting) |
 .dfwskyline .dalskyline
 .skyline .dalskyline
 .d10sop .MSG ZFW_IDS | Commands: dfwott, dalott, satarrwe, satarrew, dfwprop, dalvfrj, dalvfrp, dalmissed, dfwvfrj, dfwvfrp, dfwmissed, dalskyline |
