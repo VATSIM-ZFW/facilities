@@ -260,7 +260,7 @@
 .badifr .MSG ZFW_IDS | RH, Maintain 2000 |
 .cnwifr .MSG ZFW_IDS | RH, Maintain 3000 |
 .csmifr .MSG ZFW_IDS | On course, Maintain 5000 |
-.dtnifr .MSG ZFW_IDS | R14: H170 / R32: RH :: Maintain 3000 | Coordination required for R5/23 |
+.dtnifr .MSG ZFW_IDS | R14: H170 / R32: RH :: Maintain 2000 | Coordination required for R5/23 |
 .dtoifr .MSG ZFW_IDS | R18: H190 / R36: H340 :: Maintain 3000 |
 .dysifr .MSG ZFW_IDS | R16: H200 / R34: H320 :: Maintain 5000 |
 .fsiifr .MSG ZFW_IDS | R18: H160 / R36: RH :: Maintain 4000 |
@@ -275,7 +275,7 @@
 .hlrifr .MSG ZFW_IDS | RH, Maintain 5000 |
 .hqzifr .MSG ZFW_IDS | RH, Maintain 2000 |
 .hobifr .MSG ZFW_IDS | On course, Maintain 7000 |
-.lawifr .MSG ZFW_IDS | R17: RH / R35: H150 :: Maintain 5000 |
+.lawifr .MSG ZFW_IDS | R17: RH / R35: H150 ASAP :: Maintain 5000 |
 .lbbifr .MSG ZFW_IDS | RH, Maintain 6000 |
 .ltsifr .MSG ZFW_IDS | RH, Maintain 9000 |
 .mafifr .MSG ZFW_IDS | RH, Maintain 7000 |
