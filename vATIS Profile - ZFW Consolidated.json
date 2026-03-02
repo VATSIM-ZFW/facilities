@@ -3,7 +3,7 @@
   "name": "ZFW Consolidated",
   "id": "7e509c88-5136-4aa1-b140-b5849d61820c",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20ZFW%20Consolidated.json",
-  "updateSerial": 2026030101,
+  "updateSerial": 2026030201,
   "stations": [
     {
       "identifier": "KABI",
@@ -5018,7 +5018,7 @@
           "id": "2cc507a1-bb24-474f-b6ea-4803a78f28ec",
           "ordinal": 3,
           "name": "South IMC",
-          "airportConditions": "@RNAV APPS IN USE. LANDING AND DEPARTING RWY ^31 AND ^35",
+          "airportConditions": "@RNAV APPS IN USE. LANDING AND DEPARTING RWY ^13 AND ^17",
           "template": "",
           "externalGenerator": {
             "enabled": false,
