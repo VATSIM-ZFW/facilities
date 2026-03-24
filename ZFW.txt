@@ -207,95 +207,95 @@
 
 
 --DFW RNAV Off the Ground--
-.dfwrotg .note ZFW_IDS |\n| dfwxx where xx is the hold pad or name of departure, or name of departure procedure |\n
+.dfwrotg .echo | dfwxx where xx is the hold pad or name of departure, or name of departure procedure |\n
 
-.dfwep .note ZFW_IDS |\n| :: RNAV MECHL :: ARDIA, DARTZ, FORCK, JASPA, MRSSH, NELYN |\n
-.dfweq .note ZFW_IDS |\n| :: RNAV CUZEN :: AKUNA, BLECO, GRABE, LOWGN, TRYTN, ZACHH |\n
-.dfwer .note ZFW_IDS |\n| :: HEAVIES/SEQUENCING :: |\n
-.dfwef .note ZFW_IDS |\n| :: HEAVIES/SEQUENCING :: |\n
-.dfweg .note ZFW_IDS |\n| :: RNAV TREXX :: ARDIA, DARTZ, FORCK, JASPA, MRSSH, NELYN |\n
-.dfweh .note ZFW_IDS |\n| :: RNAV SPERA :: AKUNA, BLECO, GRABE, LOWGN, TRYTN, ZACHH |\n
+.dfwep .echo | :: RNAV MECHL :: ARDIA, DARTZ, FORCK, JASPA, MRSSH, NELYN |\n
+.dfweq .echo | :: RNAV CUZEN :: AKUNA, BLECO, GRABE, LOWGN, TRYTN, ZACHH |\n
+.dfwer .echo | :: HEAVIES/SEQUENCING :: |\n
+.dfwef .echo | :: HEAVIES/SEQUENCING :: |\n
+.dfweg .echo | :: RNAV TREXX :: ARDIA, DARTZ, FORCK, JASPA, MRSSH, NELYN |\n
+.dfweh .echo | :: RNAV SPERA :: AKUNA, BLECO, GRABE, LOWGN, TRYTN, ZACHH |\n
 
-.dfwwp .note ZFW_IDS |\n| :: RNAV GVINE :: ALIAN, ARDIA, DARTZ, JASPA, KATZZ, NELYN, WSTEX |\n
-.dfwwq .note ZFW_IDS |\n| :: RNAV HAZKL :: AKUNA, BLECO, GRABE, HRPER, HUDAD, LOWGN |\n
-.dfwwr .note ZFW_IDS |\n| :: HEAVIES/SEQUENCING :: |\n
-.dfwwf .note ZFW_IDS |\n| :: HEAVIES/SEQUENCING :: |\n
-.dfwwg .note ZFW_IDS |\n| :: RNAV LARRN :: ALIAN, ARDIA, DARTZ, JASPA, KATZZ, NELYN, WSTEX |\n
-.dfwwh .note ZFW_IDS |\n| :: RNAV BPARK :: AKUNA, BLECO, GRABE, HRPER, HUDAD, LOWGN |\n
+.dfwwp .echo | :: RNAV GVINE :: ALIAN, ARDIA, DARTZ, JASPA, KATZZ, NELYN, WSTEX |\n
+.dfwwq .echo | :: RNAV HAZKL :: AKUNA, BLECO, GRABE, HRPER, HUDAD, LOWGN |\n
+.dfwwr .echo | :: HEAVIES/SEQUENCING :: |\n
+.dfwwf .echo | :: HEAVIES/SEQUENCING :: |\n
+.dfwwg .echo | :: RNAV LARRN :: ALIAN, ARDIA, DARTZ, JASPA, KATZZ, NELYN, WSTEX |\n
+.dfwwh .echo | :: RNAV BPARK :: AKUNA, BLECO, GRABE, HRPER, HUDAD, LOWGN |\n
 
-.akuna .note ZFW_IDS |\n| 17R : EH / RNAV SPERA :: 35L : EQ / RNAV CUZEN |\n
-.alian .note ZFW_IDS |\n| 18L : WG / RNAV LARRN :: 36R : WP / RNAV GVINE |\n
-.ardia .note ZFW_IDS |\n| 17R : EG / RNAV TREXX :: 35L : EP / RNAV MECHL |\n
-.bleco .note ZFW_IDS |\n| 18L : WH / RNAV BPARK :: 36R : WQ / RNAV HAZKL |\n
-.dartz .note ZFW_IDS |\n| 17R : EG / RNAV TREXX :: 35L : EP / RNAV MECHL |\n
-.forck .note ZFW_IDS |\n| 17R : EG / RNAV TREXX :: 35L : EP / RNAV MECHL |\n
-.grabe .note ZFW_IDS |\n| 17R : EH / RNAV SPERA :: 35L : EQ / RNAV HAZKL |\n
-.hrper .note ZFW_IDS |\n| 18L : WH / RNAV BPARK :: 36R : WQ / RNAV HAZKL |\n
-.hudad .note ZFW_IDS |\n| 18L : WH / RNAV BPARK :: 36R : WQ / RNAV HAZKL |\n
-.jaspa .note ZFW_IDS |\n| 18L : WG / RNAV LARRN :: 36R : WP / RNAV GVINE |\n
-.katzz .note ZFW_IDS |\n| 18L : WG / RNAV LARRN :: 36R : WP / RNAV GVINE |\n
-.lowgn .note ZFW_IDS |\n| 18L : WH / RNAV BPARK :: 36R : WQ / RNAV HAZKL |\n
-.mrssh .note ZFW_IDS |\n| 17R : EG / RNAV TREXX :: 35L : EP / RNAV MECHL |\n
-.nelyn .note ZFW_IDS |\n| 18L : WG / RNAV LARRN :: 36R : WP / RNAV GVINE |\n
-.trytn .note ZFW_IDS |\n| 17R : EH / RNAV SPERA :: 35L : EQ / RNAV CUZEN |\n
-.wstex .note ZFW_IDS |\n| 18L : WG / RNAV LARRN :: 36R : WP / RNAV GVINE |\n
-.zachh .note ZFW_IDS |\n| 17R : EH / RNAV SPERA :: 35L : EQ / RNAV CUZEN |\n
+.akuna .echo | 17R : EH / RNAV SPERA :: 35L : EQ / RNAV CUZEN |\n
+.alian .echo | 18L : WG / RNAV LARRN :: 36R : WP / RNAV GVINE |\n
+.ardia .echo | 17R : EG / RNAV TREXX :: 35L : EP / RNAV MECHL |\n
+.bleco .echo | 18L : WH / RNAV BPARK :: 36R : WQ / RNAV HAZKL |\n
+.dartz .echo | 17R : EG / RNAV TREXX :: 35L : EP / RNAV MECHL |\n
+.forck .echo | 17R : EG / RNAV TREXX :: 35L : EP / RNAV MECHL |\n
+.grabe .echo | 17R : EH / RNAV SPERA :: 35L : EQ / RNAV HAZKL |\n
+.hrper .echo | 18L : WH / RNAV BPARK :: 36R : WQ / RNAV HAZKL |\n
+.hudad .echo | 18L : WH / RNAV BPARK :: 36R : WQ / RNAV HAZKL |\n
+.jaspa .echo | 18L : WG / RNAV LARRN :: 36R : WP / RNAV GVINE |\n
+.katzz .echo | 18L : WG / RNAV LARRN :: 36R : WP / RNAV GVINE |\n
+.lowgn .echo | 18L : WH / RNAV BPARK :: 36R : WQ / RNAV HAZKL |\n
+.mrssh .echo | 17R : EG / RNAV TREXX :: 35L : EP / RNAV MECHL |\n
+.nelyn .echo | 18L : WG / RNAV LARRN :: 36R : WP / RNAV GVINE |\n
+.trytn .echo | 17R : EH / RNAV SPERA :: 35L : EQ / RNAV CUZEN |\n
+.wstex .echo | 18L : WG / RNAV LARRN :: 36R : WP / RNAV GVINE |\n
+.zachh .echo | 17R : EH / RNAV SPERA :: 35L : EQ / RNAV CUZEN |\n
 
 --DAL RNAV Departures--
-.curlo .note ZFW_IDS |\n| SOUTH FLOW |\n| RNAV DRSET |\n| NORTH FLOW USE RAMBL |\n
-.kkity .note ZFW_IDS |\n| SOUTH FLOW |\n| RNAV DRSET |\n| NORTH FLOW USE SNSET |\n
-.lndre .note ZFW_IDS |\n| SOUTH FLOW |\n| RNAV DRSET |\n| NORTH FLOW USE EMMTT |\n
-.swtsr .note ZFW_IDS |\n| SOUTH FLOW |\n| RNAV DRSET |\n| NORTH FLOW USE ESNYE |\n
-.emmtt .note ZFW_IDS |\n| NORTH FLOW |\n| 31L: FLOWT / 31R: BARYY |\n| SOUTH FLOW USE LNDRE |\n
-.esnye .note ZFW_IDS |\n| NORTH FLOW |\n| 31L: FLOWT / 31R: BARYY |\n| SOUTH FLOW USE SWTSR |\n
-.rambl .note ZFW_IDS |\n| NORTH FLOW |\n| 31L: NNOLN / 31R: MEERZ |\n| SOUTH FLOW USE CURLO |\n
-.snset .note ZFW_IDS |\n| NORTH FLOW |\n| 31L: NNOLN / 31R: MEERZ |\n| SOUTH FLOW USE KKITY |\n
+.curlo .echo | SOUTH FLOW |\n| RNAV DRSET |\n| NORTH FLOW USE RAMBL |\n
+.kkity .echo | SOUTH FLOW |\n| RNAV DRSET |\n| NORTH FLOW USE SNSET |\n
+.lndre .echo | SOUTH FLOW |\n| RNAV DRSET |\n| NORTH FLOW USE EMMTT |\n
+.swtsr .echo | SOUTH FLOW |\n| RNAV DRSET |\n| NORTH FLOW USE ESNYE |\n
+.emmtt .echo | NORTH FLOW |\n| 31L: FLOWT / 31R: BARYY |\n| SOUTH FLOW USE LNDRE |\n
+.esnye .echo | NORTH FLOW |\n| 31L: FLOWT / 31R: BARYY |\n| SOUTH FLOW USE SWTSR |\n
+.rambl .echo | NORTH FLOW |\n| 31L: NNOLN / 31R: MEERZ |\n| SOUTH FLOW USE CURLO |\n
+.snset .echo | NORTH FLOW |\n| 31L: NNOLN / 31R: MEERZ |\n| SOUTH FLOW USE KKITY |\n
 
 --IFR Headings--
-.abiifr .note ZFW_IDS |\n| South Flow: H120 (E) or H200 (W) / North Flow: H050 (E) or H320 (W) :: Maintain 5000 |\n
-.actifr .note ZFW_IDS |\n| RH, Maintain 3000 |\n
-.admifr .note ZFW_IDS |\n| On course, Maintain 4000 |\n
-.adsifr .note ZFW_IDS |\n| R16: H050 / R34: RH / Props going S/W off 16: RH :: Maintain 2000 |\n
-.afwifr .note ZFW_IDS |\n| RH, Maintain 3000 |\n
-.badifr .note ZFW_IDS |\n| RH, Maintain 2000 |\n
-.cnwifr .note ZFW_IDS |\n| RH, Maintain 3000 |\n
-.csmifr .note ZFW_IDS |\n| On course, Maintain 5000 |\n
-.dtnifr .note ZFW_IDS |\n| R14: H170 / R32: RH :: Maintain 2000 |\n| Coordination required for R5/23 |\n
-.dtoifr .note ZFW_IDS |\n| R18: H190 / R36: H340 :: Maintain 3000 |\n
-.dysifr .note ZFW_IDS |\n| R16: H200 / R34: H320 :: Maintain 5000 |\n
-.fsiifr .note ZFW_IDS |\n| R18: H160 / R36: RH :: Maintain 4000 |\n
-.ftwifr .note ZFW_IDS |\n| RH, Maintain 3000 |\n
-.fwsifr .note ZFW_IDS |\n| RH, Maintain 3000 |\n
-.gggifr .note ZFW_IDS |\n| RH, Maintain 12000 when combined. Maintain 4000 when LO open |\n
-.gkyifr .note ZFW_IDS |\n| R16: H180 / H34: H320 :: Maintain 2000 |\n
-.gpmifr .note ZFW_IDS |\n| R17: H190 / R35: H310 :: Maintain 2000 |\n
-.grkifr .note ZFW_IDS |\n| RH, Maintain 5000 |\n
-.gvtifr .note ZFW_IDS |\n| On course, Maintain 5000 |\n
-.gyiifr .note ZFW_IDS |\n| On course, Maintain 4000 |\n
-.hlrifr .note ZFW_IDS |\n| RH, Maintain 5000 |\n
-.hqzifr .note ZFW_IDS |\n| RH, Maintain 2000 |\n
-.hobifr .note ZFW_IDS |\n| On course, Maintain 7000 |\n
-.lawifr .note ZFW_IDS |\n| R17: RH / R35: H150 ASAP :: Maintain 5000 |\n
-.lbbifr .note ZFW_IDS |\n| RH, Maintain 6000 |\n
-.ltsifr .note ZFW_IDS |\n| RH, Maintain 9000 |\n
-.mafifr .note ZFW_IDS |\n| RH, Maintain 7000 |\n
-.mluifr .note ZFW_IDS |\n| RH, Maintain 3000 |\n
-.nfwifr .note ZFW_IDS |\n| R18: H180 / R36: H330 :: Maintain 3000 |\n
-.ounifr .note ZFW_IDS |\n| On SID or R18/21: H175 / R35/31: H355 :: Maintain 3000 |\n
-.okcifr .note ZFW_IDS |\n| On SID or South Flow: Eastbound H175, Westbound H200 / North Flow: Eastbound H010, Westbound H310 :: Maintain 5000 |\n| Local IFR and VFR Practice Approaches: H080 or H260 :: Maintain 3000 |\n
-.pwaifr .note ZFW_IDS |\n| On SID or R17/13: H200 / R35/31: H310-010 :: Maintain 3000 |\n
-.rbdifr .note ZFW_IDS |\n| R13/17: RH / R31/35: TR H130 :: Jets maintain 3000, props maintain 2000 |\n
-.shvifr .note ZFW_IDS |\n| RH, Maintain 4000 |\n
-.sjtifr .note ZFW_IDS |\n| RH, Maintain 7000 |\n
-.spsifr .note ZFW_IDS |\n| R15/33: RH, Maintain 5000 :: R18: H150, Maintain 2400 :: R36: H280 prior to taxiway D, Maintain 2400 |\n
-.tikifr .note ZFW_IDS |\n| R18/13: H175 / R31/36: H355, Maintain 3000 |\n
-.tkiifr .note ZFW_IDS |\n| RH :: R18 Maintain 2000, R36 maintain 3000 |\n
-.txkifr .note ZFW_IDS |\n| On course, Maintain 3000 |\n
-.tyrifr .note ZFW_IDS |\n| On course, Maintain 7000 |\n
-.chkifr .note ZFW_IDS |\n| H350, Maintain 3000 |\n
-.hmyifr .note ZFW_IDS |\n| H350, Maintain 3000 |\n
-.gokifr .note ZFW_IDS |\n| H170, Maintain 3000 |\n
-.hsdifr .note ZFW_IDS |\n| H260, Maintain 4000 |\n
+.abiifr .echo | South Flow: H120 (E) or H200 (W) / North Flow: H050 (E) or H320 (W) :: Maintain 5000 |\n
+.actifr .echo | RH, Maintain 3000 |\n
+.admifr .echo | On course, Maintain 4000 |\n
+.adsifr .echo | R16: H050 / R34: RH / Props going S/W off 16: RH :: Maintain 2000 |\n
+.afwifr .echo | RH, Maintain 3000 |\n
+.badifr .echo | RH, Maintain 2000 |\n
+.cnwifr .echo | RH, Maintain 3000 |\n
+.csmifr .echo | On course, Maintain 5000 |\n
+.dtnifr .echo | R14: H170 / R32: RH :: Maintain 2000 |\n| Coordination required for R5/23 |\n
+.dtoifr .echo | R18: H190 / R36: H340 :: Maintain 3000 |\n
+.dysifr .echo | R16: H200 / R34: H320 :: Maintain 5000 |\n
+.fsiifr .echo | R18: H160 / R36: RH :: Maintain 4000 |\n
+.ftwifr .echo | RH, Maintain 3000 |\n
+.fwsifr .echo | RH, Maintain 3000 |\n
+.gggifr .echo | RH, Maintain 12000 when combined. Maintain 4000 when LO open |\n
+.gkyifr .echo | R16: H180 / H34: H320 :: Maintain 2000 |\n
+.gpmifr .echo | R17: H190 / R35: H310 :: Maintain 2000 |\n
+.grkifr .echo | RH, Maintain 5000 |\n
+.gvtifr .echo | On course, Maintain 5000 |\n
+.gyiifr .echo | On course, Maintain 4000 |\n
+.hlrifr .echo | RH, Maintain 5000 |\n
+.hqzifr .echo | RH, Maintain 2000 |\n
+.hobifr .echo | On course, Maintain 7000 |\n
+.lawifr .echo | R17: RH / R35: H150 ASAP :: Maintain 5000 |\n
+.lbbifr .echo | RH, Maintain 6000 |\n
+.ltsifr .echo | RH, Maintain 9000 |\n
+.mafifr .echo | RH, Maintain 7000 |\n
+.mluifr .echo | RH, Maintain 3000 |\n
+.nfwifr .echo | R18: H180 / R36: H330 :: Maintain 3000 |\n
+.ounifr .echo | On SID or R18/21: H175 / R35/31: H355 :: Maintain 3000 |\n
+.okcifr .echo | On SID or South Flow: Eastbound H175, Westbound H200 / North Flow: Eastbound H010, Westbound H310 :: Maintain 5000 |\n| Local IFR and VFR Practice Approaches: H080 or H260 :: Maintain 3000 |\n
+.pwaifr .echo | On SID or R17/13: H200 / R35/31: H310-010 :: Maintain 3000 |\n
+.rbdifr .echo | R13/17: RH / R31/35: TR H130 :: Jets maintain 3000, props maintain 2000 |\n
+.shvifr .echo | RH, Maintain 4000 |\n
+.sjtifr .echo | RH, Maintain 7000 |\n
+.spsifr .echo | R15/33: RH, Maintain 5000 :: R18: H150, Maintain 2400 :: R36: H280 prior to taxiway D, Maintain 2400 |\n
+.tikifr .echo | R18/13: H175 / R31/36: H355, Maintain 3000 |\n
+.tkiifr .echo | RH :: R18 Maintain 2000, R36 maintain 3000 |\n
+.txkifr .echo | On course, Maintain 3000 |\n
+.tyrifr .echo | On course, Maintain 7000 |\n
+.chkifr .echo | H350, Maintain 3000 |\n
+.hmyifr .echo | H350, Maintain 3000 |\n
+.gokifr .echo | H170, Maintain 3000 |\n
+.hsdifr .echo | H260, Maintain 4000 |\n
 
 --D10 SOP Quick Reference--
 .dfwott .note ZFW_IDS |\n| South flow: West @ 4000/4500 VFR :: East @ 5000/3500 VFR |\n| North flow: PO to AR, Coordinate with DS/DN : West @ 4000/4500 VFR :: East @ 4000/3500 VFR |\n
@@ -313,6 +313,12 @@
 .dfwskyline .dalskyline
 .skyline .dalskyline
 .d10sop .note ZFW_IDS |\n| Commands: dfwott, dalott, satarrwe, satarrew, dfwprop, dalvfrj, dalvfrp, dalmissed, dfwvfrj, dfwvfrp, dfwmissed, dalskyline |\n
+
+===Position Relief Briefings===
+.trelief .note TERMINAL POSITION RELIEF CHECKLIST \n1. Status Information Area \n [-] Flows - configuration, approaches in use, ATIS\n [-] Runway Status - unavailable, closed, occupied\n [-] Special Activities - routings, flow, restrictions, NOTAMs\n2. Weather - altimeter and weather trends, PIREPs\n3. Traffic \n [-] Active - active traffic and communication status, pointouts, TDLS/clearance status, holding\n [-] Pending - traffic released for departure, pending coordination, requests\n
+.zrelief .note ENROUTE POSITION RELIEF CHECKLIST \n1. Acknowledgement of having the SIA\n2. Traffic Management Initiatives \n3. Special Activities/Special Use Airspace \n4. Weather/Rides/Altimeter Settings \n5. Surrounding Airspace/Frequency Configurations \n6. Traffic and Communication Status \n
+.transfer .note TRANSFER OF AIRSPACE CHECKLIST \n1. Relevant NAVAID and Equipment Status\n2. Weather and Special Instructions/Activities \n3. NOTAMs, ATIS, Approach/Runway Configurations \n4. Transfer Control of Aircraft VFR/IFR \n5. Transfer Aircraft Communication to Appropriate Frequency \n
+
 
 ===Autotrack Lists===
 .autotrackD10 .autotrack KDFW KDAL KADS KFTW KAFW KDTO KTKI KHQZ KRBD KGKY KFWS KNFW KGPM
@@ -336,11 +342,11 @@
 .dropOKC .autotrack -KOKC -KPWA -KOUN -KTIK
 
 ===Phraseology Helpers===
-.refuel .note ZFW_IDS |\n| "Cleared to conduct refueling along [track] maintain block FL XXX through FL YYY" |\n| Provide radar assistance and vertical separation between flights until TANKER declares MARSA with RECEIVER. Ensure RECEIVER squawks standby. RECEIVER should move to lowest altitude in block before requesting to resume their flight. |\n|
-.marsa .note ZFW_IDS |\n| Military Assumes Resonsibility for Separation of Aircraft |\n| Ensure IFR separation is provided until MARSA is declared by flight |\n| Continue to separate MARSA flight from non-participating aircraft |\n|
-.overhead .note ZFW_IDS |\n| Overhead/Carrier Break |\n| "Report initial" (May specify distance but usually 3-5nm from runway) IFR is automatically cancelled at the initial |\n||\n| "Break at [specified point], report the break" |\n|
-.moa .note ZFW_IDS |\n| Example: "Cleared Lancer MOA, maintain block 7000 through FL190." |\n| Aircraft should contact prior to airspace exit |\n|
-.mtr .note ZFW_IDS |\n| Example: "Cleared into IR-117, maintain IR-117 altitudes." |\n| When aircraft is ready to leave IR: Issue IFR clearance to destination. |\n|
+.refuel .note ZFW_IDS |\n| "Cleared to conduct refueling along [track] maintain block FL XXX through FL YYY" |\n| Provide radar assistance and vertical separation between flights until TANKER declares MARSA with RECEIVER. Ensure RECEIVER squawks standby. RECEIVER should move to lowest altitude in block before requesting to resume their flight. |\n
+.marsa .note ZFW_IDS |\n| Military Assumes Resonsibility for Separation of Aircraft |\n| Ensure IFR separation is provided until MARSA is declared by flight |\n| Continue to separate MARSA flight from non-participating aircraft |\n
+.overhead .note ZFW_IDS |\n| Overhead/Carrier Break |\n| "Report initial" (May specify distance but usually 3-5nm from runway) IFR is automatically cancelled at the initial |\n||\n| "Break at [specified point], report the break" |\n
+.moa .note ZFW_IDS |\n| Example: "Cleared Lancer MOA, maintain block 7000 through FL190." |\n| Aircraft should contact prior to airspace exit |\n
+.mtr .note ZFW_IDS |\n| Example: "Cleared into IR-117, maintain IR-117 altitudes." |\n| When aircraft is ready to leave IR: Issue IFR clearance to destination. |\n
 
 
 ===CWT===
