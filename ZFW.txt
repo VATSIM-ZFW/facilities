@@ -93,9 +93,9 @@
 .zfwbbg .note ZFW_IDS |\n| From MLC-H: D240 |\n
 .zfwsgf .note ZFW_IDS |\n| From MLC-H: x bdry @330 |\n
 .zfwjan .note ZFW_IDS |\n| To VKS-H: x bdry AOB300, D240 |\n
-.zfwzme .note ZFW_IDS |\n| via LIT: remain on LIT transition |\n| via BSKAT: remain on BSKAT transition |\n| to ATL: no futher than ORRKK |\n| to ORD: via SGF.WELTS.TRTLL/SHAIN STAR |\n
+.zfwzme .note ZFW_IDS |\n| via LIT: remain on LIT transition |\n| via BSKAT: remain on BSKAT transition |\n| to ATL: no further than ORRKK |\n| to ORD: via SGF.WELTS.TRTLL/SHAIN STAR |\n
 .zfword .note ZFW_IDS |\n| to ORD: via SGF.WELTS.TRTLL/SHAIN STAR |\n
-.zfwatl .note ZFW_IDS |\n| to ATL: no futher than ORRKK |\n
+.zfwatl .note ZFW_IDS |\n| to ATL: no further than ORRKK |\n
 
 --ZFW-ZAB LOA-- 
 .zfwphx .note ZFW_IDS |\n| RNAV via EWM.DRRVR.PINNG STAR or TXO/TCC.ABQ or CNX.ZUN |\n||\n| Conv and turboprop via EWM.J4.SSO or TXO/TCC.ABQ or CNX.ZUN |\n
@@ -303,12 +303,12 @@
 .satarrwe .note ZFW_IDS |\n| ADS-S flow from GREGS - level @ 030 3nm prior to spine road :: Others: level at odd altitude 3nm prior to spine road |\n
 .satarrew .note ZFW_IDS |\n| Slow props from SASIE - level @ 040 3nm prior to spine road :: Landing DTO from SASIE/Landing GKY/GPM from DODJE: level @ 040 3nm prior to spine road :: Others: level at even altitude 3nm prior to spine road |\n
 .dfwprop .note ZFW_IDS |\n| South flow: DS assign 17L, vector towards ADS @ 050 :: MS assign 13R, vector towards DTO @ 060 |\n||\n| North flow: DN assign 31R, vector towards RBD @ 050 :: MN assign 36L, vector towards FWS @ 040 |\n
-.dalvfrj .note ZFW_IDS |\n| South flow: AOB060 (low alt AOB040), RH |\n||\n| North flow: AOB050 (low alt AOB040), H010 |\n
-.dalvfrp .note ZFW_IDS |\n| South flow: AOB030, H070/H100/H165 |\n||\n| North flow: AOB020, H185/H330 |\n
+.dalvfrj .note ZFW_IDS |\n| South flow: AOB060 (low alt AOB040), RH |\n| North flow: AOB050 (low alt AOB040), H010 |\n
+.dalvfrp .note ZFW_IDS |\n| South flow: AOB030, H070/H100/H165 |\n| North flow: AOB020, H185/H330 |\n
 .dalmissed .note ZFW_IDS |\n| S: RH @ A030, N: RH @ A030 |\n
-.dfwvfrj .note ZFW_IDS |\n| AOB100 or AOB040 (low alt) |\n||\n| North flow: H010/H340, South flow: H160/H190 |\n
-.dfwvfrp .note ZFW_IDS |\n| AOB020 |\n||\n| North flow: H030/H270, South flow: H130/H240 |\n
-.dfwmissed .note ZFW_IDS |\n| Jets: H160/H190(S) or H010/H340(N) @ A030 |\n||\n| Props: H130/H240(S) or H030/H270(N) @ A020 |\n
+.dfwvfrj .note ZFW_IDS |\n| AOB100 or AOB040 (low alt) |\n| North flow: H010/H340, South flow: H160/H190 |\n
+.dfwvfrp .note ZFW_IDS |\n| AOB020 |\n| North flow: H030/H270, South flow: H130/H240 |\n
+.dfwmissed .note ZFW_IDS |\n| Jets: H160/H190(S) or H010/H340(N) @ A030 |\n| Props: H130/H240(S) or H030/H270(N) @ A020 |\n
 .dalskyline .note ZFW_IDS |\n| Aircraft will circle around downtown Dallas @ 2000 (with tower) or @ 2500 (with D10). Pilots may be vectored towards downtown or they can be own navigation, use HELI chart for reporting points. Not normally available in north flow, use discretion reference traffic landing 31L/R. (IRL they will only allow a flyby of downtown, no orbiting) |\n
 .dfwskyline .dalskyline
 .skyline .dalskyline
@@ -343,10 +343,11 @@
 
 ===Phraseology Helpers===
 .refuel .note ZFW_IDS |\n| "Cleared to conduct refueling along [track] maintain block FL XXX through FL YYY" |\n| Provide radar assistance and vertical separation between flights until TANKER declares MARSA with RECEIVER. Ensure RECEIVER squawks standby. RECEIVER should move to lowest altitude in block before requesting to resume their flight. |\n
-.marsa .note ZFW_IDS |\n| Military Assumes Resonsibility for Separation of Aircraft |\n| Ensure IFR separation is provided until MARSA is declared by flight |\n| Continue to separate MARSA flight from non-participating aircraft |\n
+.marsa .note ZFW_IDS |\n| Military Assumes Responsibility for Separation of Aircraft |\n| Ensure IFR separation is provided until MARSA is declared by flight |\n| Continue to separate MARSA flight from non-participating aircraft |\n
 .overhead .note ZFW_IDS |\n| Overhead/Carrier Break |\n| "Report initial" (May specify distance but usually 3-5nm from runway) IFR is automatically cancelled at the initial |\n||\n| "Break at [specified point], report the break" |\n
 .moa .note ZFW_IDS |\n| Example: "Cleared Lancer MOA, maintain block 7000 through FL190." |\n| Aircraft should contact prior to airspace exit |\n
 .mtr .note ZFW_IDS |\n| Example: "Cleared into IR-117, maintain IR-117 altitudes." |\n| When aircraft is ready to leave IR: Issue IFR clearance to destination. |\n
+.miliary .echo Military Phraseology helpers \n | refuel, marsa, overhead, moa, mtr |\n
 
 
 ===CWT===
@@ -445,9 +446,9 @@
 .clr Clearance on request number $1
 .clravail Clearance available, advise when ready to copy. 
 .amend I have a amendment to your flight plan, advise ready to copy.
-.fullam I have a full re-route clearence for your flight plan, advise ready to copy.
+.fullam I have a full re-route clearance for your flight plan, advise ready to copy.
 
----IFR clearence---
+---IFR clearance---
 (Departure Sector ID)
 .ifrcv Cleared to the $arr via $route, climb via SID, Departure $freq($1), $squawk
 
@@ -461,9 +462,9 @@
 
 .ifrexdo Cleared to the $arr via $route, climb via SID except maintain $1, Departure 122.8, squawk $squawk
 
-.rcor Readback correct, push and start at pilot's discression, contact Ground on $freq ($1) for taxi. 
+.rcor Readback correct, push and start at pilot's discretion, contact Ground on $freq($1) for taxi. 
 
-.rcorg Readback correct, push and start at pilot's discression, call ready for taxi, expect runway $1 for departure. 
+.rcorg Readback correct, push and start at pilot's discretion, call ready for taxi, expect runway $1 for departure. 
 
 .h4rel Readback correct, hold for release. Advise this frequency when number 1 for the runway. Frequency change approved.
 -----Departure Release - .rel4dep Released at (# of minutes from current time) Void at (# of minutes from current time). Standard entry = .rel4dep 0 10
@@ -476,7 +477,7 @@
 
 .td Runway $1, taxi via $2 $3 $4 $5 $6 $7 $8 $9
 .ta Taxi via $1 $2 $3 $4 $5 $6 $7 $8 $9 to the ramp
-.tapd Taxi to the ramp at pilot s discretion, cross all runways
+.tapd Taxi to the ramp at pilots discretion, cross all runways
 .hs Hold short $1 $2 $3 $4 $5 $6 $7 $8 $9
 .hp Hold position
 .ct Continue taxi
@@ -555,16 +556,15 @@
 ---MSC---
 .ho Contact $radioname($1) on $freq($1), have a good flight! 
 .hodep Contact Departure  $freq($1) Cya!
-.depoff No departure control avilable, monitor unicom 122.8, Thanks for flying Fort Worth! 
+.depoff No departure control available, monitor unicom 122.8, Thanks for flying Fort Worth! 
 .rts Reset transponder, $squawk
 .lmas Leaving my airspace, no further ATC available, radar service terminated, frequency change approved, thanks for flying Fort Worth!
 .ecb You're exiting Class B airspace, radar service is terminated, squawk VFR, frequency change approved, thanks for flying Fort Worth!
 .ecc You're exiting Class C airspace, radar service is terminated, squawk VFR, frequency change approved, thanks for flying Fort Worth!
-.close **NOTAM** $radioname ($1) will be closing in $2 minutes
-.close! **NOTAM** $radioname ($1) CLOSING DUE TO EMERGENCY, RADAR SERVICES ARE TERMINATED, AIRCRAFT PLEASE CONTACT NEAREST ATC
-.closed **NOTAM** $radioname ($1) is closed. Have a good day
-.closing **NOTAM** $radioname ($1) is closing at $2
-.shift **NOTAM** $radioname ($1) shift change in progress
+.close! **NOTAM** $radioname() CLOSING DUE TO EMERGENCY, RADAR SERVICES ARE TERMINATED, AIRCRAFT PLEASE CONTACT NEAREST ATC
+.closed **NOTAM** $radioname() is closed. Have a good day
+.closing **NOTAM** $radioname() is closing in $1 minutes.
+.shift **NOTAM** $radioname() shift change in progress
 .rst Radar service is terminated, squawk VFR, frequency change approved
 .spa Say position and altitude
 .sas Say indicated air speed
@@ -587,7 +587,7 @@
 .newatis ATIS information $atiscode is current $winds, $altimeter
 .ratis  Report receiving ATIS $1
 .rmatis Report receiving ATIS $atiscode
-.cyrv Can you recieve voice?
+.cyrv Can you receive voice?
 
 
 .idFSS .echo *** 3LD: FSS ___ TELEPHONY: ABACO
@@ -11466,14 +11466,8 @@
 
 ----------------------------------------------------------------------------ZFW Alias V7 by Mack Kraus---------------------------------------------------------------------
 
----HELP COMMANDS---
-
-.helphub .MSG |\n|==========HELP HUB==========|\n|[D10 AIRSPACE MAPS].d10help|\n| |\n|[CTR COMMANDS].ctrhelp|\n| |\n| |\n| to look up a airline .id |\n| 
-.d10help .MSG |\n|==========D10 HELP==========|\n|[[SPECIFIC AIRSPACE MAPS]].(AR/DR/SAT/FED)(N/S) ex. "ARs" or "SATn"|\n| |\n|[[SPECIFIC ARRIVAL MAPS]].(Name of Arrival) ex. ".JOVEM4" (Only for DFW DAL & OKC)|\n| |\n|[[COMBINED RNAV ARRIVALS]].dfwarr(n/s) .dalarr(n/s) ex. ".dfwarrn"|\n|(DFW Conventional Arrivals).dfwarrcon , (DAL Conventional Arrivals).dalarrcon|\n| |\n|[D10 North/South Flow Map Toggle] (.d10n) or (.d10s)
-.ctrhelp .MSG |\n|==========CTR HELP==========|\n|[ZFW HI SPLITS].zfwhi|\n|[ZFW LO SPLITS].zfwlo|\n| |\n|[ZHU SPLIT].zhusplit|\n|[ZME SPLIT].zmesplit or (HI).zmehi or (LO).zmelo|\n|[ZAB SPLIT].zabsplit|\n| |\n|[MIA MAP].mia|\n|[ALL MVAs].mva|\n|[ALL TRACON BOUNDARIES].appbound|\n|[ALL AIRSPACE].airspace|\n| |\n|[TRACON RVMs].rvm|\n|[D10 RVMs](.d10n) or (.d10s)|\n|[OKC RVMs](.okcn) or (.okcs)|\n| |\n|[VOR NAMES].(VOR ID)n ex. "TTTn" or "IRWn"
-
 .d .msg $atccallsign($1) *** $dep $aircraft $2 $3 $4 $5 $6 $7 $8 $9 $route $alt
-------------------------------------- aircraft equipment sufx --------------------------------------------------------------------------------------
+------------------------------------- aircraft equipment suffix --------------------------------------------------------------------------------------
 .slanta .echo DME, transponder with mode C, no RVSM
 .slantg .echo GNSS, transponder with mode C, no RVSM
 .slanti .echo RNAV, no GNSS, transponder with mode C, no RVSM
