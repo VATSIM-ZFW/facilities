@@ -3,7 +3,7 @@
   "name": "D10 TRACON",
   "id": "cb67381e-5d13-452d-aea9-e9b74510ab86",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20D10%20TRACON.json",
-  "updateSerial": 2026082401,
+  "updateSerial": 2026090601,
   "stations": [
     {
       "identifier": "KADS",
@@ -9269,13 +9269,7 @@
         }
       ],
       "airportConditionDefinitions": [],
-      "notamDefinitions": [
-        {
-          "text": "SPECIAL CTP PROCEDURES IN EFFECT. AIRCRAFT DEPARTING MAY BE DELAYED.",
-          "ordinal": 1,
-          "enabled": true
-        }
-      ],
+      "notamDefinitions": [],
       "transitionLevels": []
     },
     {

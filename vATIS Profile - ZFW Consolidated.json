@@ -3,7 +3,7 @@
   "name": "ZFW Consolidated",
   "id": "7e509c88-5136-4aa1-b140-b5849d61820c",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20ZFW%20Consolidated.json",
-  "updateSerial": 2026082401,
+  "updateSerial": 2026090601,
   "stations": [
     {
       "identifier": "KABI",
@@ -11192,13 +11192,7 @@
         }
       ],
       "airportConditionDefinitions": [],
-      "notamDefinitions": [
-        {
-          "text": "SPECIAL CTP PROCEDURES IN EFFECT. AIRCRAFT DEPARTING MAY BE DELAYED.",
-          "ordinal": 1,
-          "enabled": true
-        }
-      ],
+      "notamDefinitions": [],
       "transitionLevels": []
     },
     {
