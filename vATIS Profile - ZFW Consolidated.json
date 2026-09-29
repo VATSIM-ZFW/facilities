@@ -3,7 +3,7 @@
   "name": "ZFW Consolidated",
   "id": "7e509c88-5136-4aa1-b140-b5849d61820c",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-ZFW/facilities/refs/heads/main/vATIS%20Profile%20-%20ZFW%20Consolidated.json",
-  "updateSerial": 2026090601,
+  "updateSerial": 2026092901,
   "stations": [
     {
       "identifier": "KABI",
@@ -11148,9 +11148,15 @@
           "name": "SOUTH VIS",
           "airportConditions": "@SVA RWY ^13L, ^13R IN USE, DEPARTING RWY ^13L, ^13R.",
           "notams": "",
-          "template": "[FACILITY] ARRIVAL DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [WX]. [ARPT_COND] [NOTAMS]. [CLOSING].",
+          "template": "[FACILITY] ARRIVAL DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [CLOSING].",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
